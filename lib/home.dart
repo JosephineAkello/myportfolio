@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
+
+  createState() {
+   return HomeScreenState();
+  }
+}
+class HomeScreenState extends State<HomeScreen>{
   Widget build(context) {
     return Stack(
       children: <Widget>[
@@ -11,13 +17,17 @@ class HomeScreen extends StatelessWidget {
           fit: BoxFit.cover,
         ),
         Scaffold(
+          
           backgroundColor: Colors.transparent,
            appBar: AppBar(
                 backgroundColor: Colors.transparent,
                 elevation: 0.0,
-                title: Text('Welcome to my Portfolio',
-                style: TextStyle(color: Colors.brown),),
+                title: Text('Maureen Josephine Akello',
+                style: TextStyle(color: Colors.brown[100]),),
                 centerTitle: true,
+              ),
+              bottomNavigationBar: BottomNavigationBar(
+                
               ),
           body: ListView(
             padding: EdgeInsets.all(20.0),
@@ -35,40 +45,40 @@ class HomeScreen extends StatelessWidget {
             SizedBox(height: 20.0,),
            Card(
              child: ListTile(
-              title: Container(
-                color: Colors.white12,
+              title: Text(
+               'Languages/Skills',
               ),
               leading: Icon(
                 Icons.filter_vintage,
-                color: Colors.pink,
+                color: Colors.red,
               ),
               onTap: () {},
             ),   ),
             SizedBox(height: 20.0,),
             Card(
              child: ListTile(
-              title: Container(
-                color: Colors.white12,
+              title: Text(
+               'My Apps'
               ),
               leading: Icon(
-                Icons.filter_vintage,
-                color: Colors.pink,
+                Icons.apps,
+                color: Colors.blue,
               ),
               onTap: () {},
             ),   ),
             SizedBox(height: 20.0,),
             Card(
              child: ListTile(
-              title: Container(
-                color: Colors.white12,
+              title: Text(
+               'My Blogs'
               ),
               leading: Icon(
-                Icons.filter_vintage,
-                color: Colors.pink,
+                Icons.book,
+                color: Colors.green,
               ),
               onTap: () {},
             ),   ),
-          ]), //body: Text("Hello world"),
+          ]), 
         )
       ],
     );
