@@ -3,6 +3,7 @@ import 'package:myportfolio/settings.dart';
 import 'aboutme.dart';
 import 'messageme.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'myapps.dart';
 
 class HomeScreen extends StatefulWidget {
   createState() {
@@ -98,7 +99,10 @@ class HomeScreenState extends State<HomeScreen> {
                   Icons.apps,
                   color: Colors.blue,
                 ),
-                onTap: (){}
+                onTap: (){
+                  Navigator.of(context).push(MaterialPageRoute(
+        builder: (context) => Myapps()));
+                }
               ),),
             ),
             SizedBox(
