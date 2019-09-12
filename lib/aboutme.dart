@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Aboutme extends StatelessWidget {
   Widget build(context) {
@@ -19,11 +20,6 @@ class Aboutme extends StatelessWidget {
               style: TextStyle(color: Colors.brown[100]),
             ),
             centerTitle: true,
-          ),
-          floatingActionButton: FloatingActionButton(
-            backgroundColor: Colors.brown,
-            child: Icon(Icons.next_week,),
-            onPressed: (){},
           ),
           body: ListView(
             children: <Widget>[
@@ -51,25 +47,41 @@ class Aboutme extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.brown[100], fontSize: 20.0),
                 ),
-              ), SizedBox(
+              ),
+              SizedBox(
                 height: 15.0,
               ),
-
               Card(
                 color: Colors.white60,
-                child: Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Text(
+                child: Column(children: <Widget>[
+                  Padding(
+                    padding: EdgeInsets.all(10.0),
+                    child: Text(
                       'Besides coding, I am very much passionate about fashion design. '
                       'I always believe, that Technology impacts fashion industry in terms of brand'
                       ' awareness and the changing market trends, scaling fashion to new heights.\n\n'
                       'I was privilledged to participate in Kenya Fashion Awards competitions in 2018'
                       'with fashion and design students. My designs received positive feedback'
                       'and got featured in report by NextGen Fashion weekend facebook post. Find the '
-                      'link below.', style: TextStyle(fontSize: 15.0),),
-                ),
-              ),SizedBox(
-                height: 15.0,
+                      'link below:',
+                      style: TextStyle(fontSize: 15.0),
+                    ),
+                  ),
+                  InkWell(
+                    child: Text('Link to Report by NextGen Fashion Weekend',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    onTap: () async {
+                      if (await canLaunch(
+                          'https://web.facebook.com/kenyafashionawards/posts/961825364015071?__tn__=H-R')) {
+                        await launch(
+                            'https://web.facebook.com/kenyafashionawards/posts/961825364015071?__tn__=H-R');
+                      }
+                    },
+                  ),
+                  Padding(
+                    padding: EdgeInsets.all(10.0),
+                  ),
+                ]),
               ),
               Padding(
                 padding: EdgeInsets.all(20.0),
@@ -78,16 +90,19 @@ class Aboutme extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.brown[100], fontSize: 20.0),
                 ),
-              )
-              ,SizedBox(
+              ),
+              SizedBox(
                 height: 15.0,
               ),
               Card(
                 color: Colors.white60,
                 child: Padding(
                   padding: EdgeInsets.all(10.0),
-                  child: Text('I spend my free time catching up with'
-                      'friends, cooking and eating of course .'),
+                  child: Text(
+                    'I spend my free time catching up with'
+                    'friends, cooking and eating of course😂😂😂.',
+                    style: TextStyle(fontSize: 15.0),
+                  ),
                 ),
               )
             ],
