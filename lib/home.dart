@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:myportfolio/settings.dart';
 import 'aboutme.dart';
 import 'messageme.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class HomeScreen extends StatefulWidget {
   createState() {
@@ -90,14 +91,15 @@ class HomeScreenState extends State<HomeScreen> {
               height: 15.0,
             ),
             Card(
-              child: ListTile(
+              child: InkWell(
+                child: ListTile(
                 title: Text('My Apps'),
                 leading: Icon(
                   Icons.apps,
                   color: Colors.blue,
                 ),
-                onTap: () {},
-              ),
+                onTap: (){}
+              ),),
             ),
             SizedBox(
               height: 15.0,
@@ -109,7 +111,13 @@ class HomeScreenState extends State<HomeScreen> {
                   Icons.book,
                   color: Colors.green,
                 ),
-                onTap: () {},
+                onTap: ()  async {
+                      if (await canLaunch(
+                          'https://medium.com/@onyangomaureen95')) {
+                        await launch(
+                            'https://medium.com/@onyangomaureen95');
+                      }
+                    },
               ),
             ),
             // _widgetoptions.elementAt(_selecteditem),
