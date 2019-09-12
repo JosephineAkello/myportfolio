@@ -12,17 +12,17 @@ class HomeScreen extends StatefulWidget {
 class HomeScreenState extends State<HomeScreen> {
   int _selecteditem = 0;
   List<Widget> _widgetoptions = <Widget>[
-    
     Aboutme(),
+    MyActivities(),
     MessageMe(),
-    Settings(),
   ];
 
   void _onItemTapped(index) {
     setState(() {
       _selecteditem = index;
-      Navigator.of(context).push(
-          MaterialPageRoute(builder: (context) => _widgetoptions.elementAt(_selecteditem),));
+      Navigator.of(context).push(MaterialPageRoute(
+        builder: (context) => _widgetoptions.elementAt(_selecteditem),
+      ));
     });
   }
 
@@ -51,9 +51,10 @@ class HomeScreenState extends State<HomeScreen> {
               BottomNavigationBarItem(
                   icon: Icon(Icons.person), title: Text('AboutMe')),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.email), title: Text('MessageMe')),
+                  icon: Icon(Icons.local_activity),
+                  title: Text('MyActivities')),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.settings), title: Text('Settings'))
+                  icon: Icon(Icons.email), title: Text('MessageMe')),
             ],
             currentIndex: _selecteditem,
             selectedItemColor: Colors.deepPurple,
