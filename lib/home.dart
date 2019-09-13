@@ -32,7 +32,7 @@ class HomeScreenState extends State<HomeScreen> {
     return Stack(
       children: <Widget>[
         Image.asset(
-          'assets/plbrown.jpg',
+          'assets/bgpple1.jpg',
           height: MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
           fit: BoxFit.cover,
@@ -40,11 +40,11 @@ class HomeScreenState extends State<HomeScreen> {
         Scaffold(
           backgroundColor: Colors.transparent,
           appBar: AppBar(
-            backgroundColor: Colors.brown[50],
+            backgroundColor: Colors.transparent,
             elevation: 0.0,
             title: Text(
               'Maureen Josephine Akello',
-              style: TextStyle(color: Colors.brown),
+              style: TextStyle(color: Colors.purple[100]),
             ),
             centerTitle: true,
           ),
@@ -64,13 +64,14 @@ class HomeScreenState extends State<HomeScreen> {
           ),
           body: ListView(padding: EdgeInsets.all(16.0), children: <Widget>[
             CircleAvatar(
-              backgroundColor: Colors.brown[100],
-              child: Image.asset(
+               backgroundColor: Colors.transparent,
+              child: ClipOval(
+                child: Image.asset(
                 "assets/mojo.jpg",
                 fit: BoxFit.cover,
                 width: 125.0,
                 height: 125.0,
-              ),
+              ), ),
               radius: 90.0,
             ),
             SizedBox(
