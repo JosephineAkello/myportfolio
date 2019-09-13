@@ -14,7 +14,7 @@ class MessageMe extends StatelessWidget{
      return Stack(
       children: <Widget>[
         Image.asset(
-          'assets/bren.jpg',
+          'assets/pplebck.jpeg',
           height: MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
           fit: BoxFit.cover,
@@ -26,7 +26,7 @@ class MessageMe extends StatelessWidget{
             elevation: 0.0,
             title: Text(
               'Maureen Josephine Akello',
-              style: TextStyle(color: Colors.brown[100]),
+              style: TextStyle(color: Color(0xFF333366)),
             ),
             centerTitle: true,
           ),
