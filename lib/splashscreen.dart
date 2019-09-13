@@ -16,7 +16,7 @@ void initState(){
 }
 
 Future<Timer> loadData()async{
-  return Timer(Duration(seconds: 6), onDoneLoading);
+  return Timer(Duration(seconds: 5), onDoneLoading);
 }
 
 onDoneLoading() async {
@@ -26,13 +26,13 @@ onDoneLoading() async {
     return Container(
       decoration: BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/Droidcon-4991.jpg'),
+          image: AssetImage('assets/Droidcon-5334.jpg'),
           fit: BoxFit.fill,
           )
       ),
       child: Center(
         child: CircularProgressIndicator(
-          valueColor: AlwaysStoppedAnimation<Color>(Colors.blueAccent),
+          valueColor: AlwaysStoppedAnimation<Color>(Colors.purpleAccent),
         ),
       ),
     );
