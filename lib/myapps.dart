@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:myportfolio/etailpage.dart';
+import 'package:myportfolio/makeuppage.dart';
+import 'package:myportfolio/welindapage.dart';
 
 class Myapps extends StatelessWidget {
   Widget build(context) {
@@ -62,7 +65,9 @@ class Myapps extends StatelessWidget {
                     Padding(
                         padding: EdgeInsets.all(10.0),
                         child: FlatButton(
-                            onPressed: () {},
+                           onPressed: () {
+                            Navigator.push(context,MaterialPageRoute(builder: (context)=> MakeUp()));
+                          },
                             child: Text(
                               'MakeUpBuddy',
                               style: TextStyle(
@@ -111,7 +116,9 @@ class Myapps extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(10.0),
                       child: FlatButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(context,MaterialPageRoute(builder: (context)=> Etailor()));
+                          },
                           child: Text(
                             'E-Tailor App',
                             style: TextStyle(
@@ -161,7 +168,9 @@ class Myapps extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(10.0),
                       child: FlatButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(context,MaterialPageRoute(builder: (context)=> WeLinda()));
+                          },
                           child: Text(
                             'WeLinda App',
                             style: TextStyle(
