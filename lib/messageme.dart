@@ -13,14 +13,9 @@ class MessageMe extends StatelessWidget{
   Widget build(context){
      return Stack(
       children: <Widget>[
-        Image.asset(
-          'assets/pplebck.jpeg',
-          height: MediaQuery.of(context).size.height,
-          width: MediaQuery.of(context).size.width,
-          fit: BoxFit.cover,
-        ),
+       
         Scaffold(
-          backgroundColor: Colors.transparent,
+          backgroundColor: Color(0xFFcaadde),
           appBar: AppBar(
             backgroundColor: Colors.transparent,
             elevation: 0.0,
