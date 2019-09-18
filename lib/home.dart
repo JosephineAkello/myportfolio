@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:myportfolio/settings.dart';
+import 'package:myportfolio/myactivities.dart';
 import 'aboutme.dart';
 import 'messageme.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'myapps.dart';
+import 'mylanguages.dart';
 
 class HomeScreen extends StatefulWidget {
   createState() {
@@ -86,7 +87,10 @@ class HomeScreenState extends State<HomeScreen> {
                   Icons.filter_vintage,
                   color: Colors.red,
                 ),
-                onTap: () {},
+                onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+        builder: (context) => Mylanguages()));
+                },
               ),
             ),
             SizedBox(

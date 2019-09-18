@@ -3,33 +3,69 @@ import 'package:flutter/material.dart';
 class Mylanguages extends StatelessWidget {
   Widget build(context) {
     return Scaffold(
-      backgroundColor: Colors.purple[100],
+      backgroundColor: Color(0xFFcaadde),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0.0,
-        title: Text('My Languages/Skills'),
+        title: Text('My Languages/Skills',
+            style: TextStyle(
+              color: Color(0xFF39065a),
+              fontWeight: FontWeight.bold
+            )),
       ),
       body: ListView(
         children: <Widget>[
           ListTile(
-            title: Text('Languages'),
-            subtitle: Text("Dart,\n"
-            "Flutter,\n"
-            "Elixir,\n"
-            "Phoenix,\n"
-            "HTML/CSS,\n"
-            "C#."),
+            title: Text(
+              'Languages',
+              style: TextStyle(
+                  color: Color(0xFF39065a),
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
+            ),
+            subtitle: Card(
+              color: Color(0xFF6a1572),
+              child:  Padding(
+              padding: EdgeInsets.all(16.0),
+              child:Text(
+                " Dart,\n\n"
+                " Flutter,\n\n"
+                " Elixir,\n\n"
+                " Phoenix,\n\n"
+                " HTML/CSS,\n\n"
+                " Javascript\n\n"
+                " C#.",
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Color(0xFFcaadde),
+                )),
+              ),
+            ),
           ),
           ListTile(
-            title: Text('Skills'),
-            subtitle: Text("Git workflow,\n"
-            'Linux,\n'
-            "Firebase,\n"
-            "SQL Database,\n"
-            "Agile Methodologies-Scrum,\n"
-            "Analysis of Algorithms,\n"
-            "Leadership and Collaboration."),
-          )
+            title: Text(
+              'Skills',
+              style: TextStyle(
+                  color: Color(0xFF39065a),
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
+            ),
+            subtitle: Card(
+              color: Color(0xFF6a1572),
+              child:  Padding(
+              padding: EdgeInsets.all(16.0),
+              child:Text(
+                " Git workflow,\n\n"
+                ' Linux,\n\n'
+                " Firebase,\n\n"
+                " SQL Database,\n\n"
+                " Agile Methodologies-Scrum,\n\n"
+                " Analysis of Algorithms,\n\n"
+                " Leadership and Collaboration.",
+                style: TextStyle(fontSize: 16, color: Color(0xFFcaadde),),
+              ),
+            ),
+          ))
         ],
       ),
     );
