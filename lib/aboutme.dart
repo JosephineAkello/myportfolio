@@ -5,7 +5,7 @@ class Aboutme extends StatelessWidget {
   Widget build(context) {
     return Stack(children: <Widget>[
       Image.asset(
-        'assets/bren.jpg',
+        'assets/bgpple1.jpg',
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         fit: BoxFit.cover,
@@ -17,23 +17,23 @@ class Aboutme extends StatelessWidget {
             elevation: 0.0,
             title: Text(
               'About Me',
-              style: TextStyle(color: Colors.brown[100]),
+              style: TextStyle(color: Color(0xFFcaadde),),
             ),
             centerTitle: true,
           ),
           body: ListView(
             children: <Widget>[
               Card(
-                color: Colors.white60,
+                color: Color(0xFFcaadde),
                 child: Padding(
                   padding: EdgeInsets.all(10.0),
                   child: Text(
                     'Am a mobile developer enthusiast interested in learning'
                     ' new technologies that are geared towards solving challenges that in '
                     'the end help to make work easier.\n\n'
-                    'I have hands on experience in Flutter, a technology developed by Google'
-                    'that runs on both Android and iOS devices from a Single code base',
-                    style: TextStyle(fontSize: 15.0),
+                    'I have hands on experience in Flutter, a technology developed by Google '
+                    'that runs on both Android and iOS devices from a Single code base.',
+                    style: TextStyle(fontSize: 16.0),
                   ),
                 ),
               ),
@@ -45,14 +45,14 @@ class Aboutme extends StatelessWidget {
                 child: Text(
                   'Things I love..',
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.brown[100], fontSize: 20.0),
+                  style: TextStyle(color: Color(0xFFcaadde), fontSize: 20.0),
                 ),
               ),
               SizedBox(
                 height: 15.0,
               ),
               Card(
-                color: Colors.white60,
+                color: Color(0xFFcaadde),
                 child: Column(children: <Widget>[
                   Padding(
                     padding: EdgeInsets.all(10.0),
@@ -64,12 +64,12 @@ class Aboutme extends StatelessWidget {
                       'with fashion and design students. My designs received positive feedback'
                       'and got featured in report by NextGen Fashion weekend facebook post. Find the '
                       'link below:',
-                      style: TextStyle(fontSize: 15.0),
+                      style: TextStyle(fontSize: 16.0),
                     ),
                   ),
                   InkWell(
                     child: Text('Link to Report by NextGen Fashion Weekend',
-                        style: TextStyle(fontWeight: FontWeight.bold)),
+                        style: TextStyle(color:  Color(0xFF420000), fontWeight: FontWeight.bold)),
                     onTap: () async {
                       if (await canLaunch(
                           'https://web.facebook.com/kenyafashionawards/posts/961825364015071?__tn__=H-R')) {
@@ -95,13 +95,13 @@ class Aboutme extends StatelessWidget {
                 height: 15.0,
               ),
               Card(
-                color: Colors.white60,
+                color: Color(0xFFcaadde),
                 child: Padding(
                   padding: EdgeInsets.all(10.0),
                   child: Text(
-                    'I spend my free time catching up with'
+                    'I spend my free time catching up with '
                     'friends, cooking and eating of course😂😂😂.',
-                    style: TextStyle(fontSize: 15.0),
+                    style: TextStyle(fontSize: 16.0),
                   ),
                 ),
               )

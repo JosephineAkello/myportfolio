@@ -38,7 +38,7 @@ class Myapps extends StatelessWidget {
                   height: 124.0,
                   margin: EdgeInsets.only(left: 46.0),
                   decoration: BoxDecoration(
-                    color: Color(0xFF333366),
+                    color: Color(0xFF6a1572),
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadius.circular(8.0),
                     boxShadow: <BoxShadow>[
@@ -86,13 +86,13 @@ class Myapps extends StatelessWidget {
               child: Stack(children: <Widget>[
                 Container(
                   height: 124.0,
-                  margin: new EdgeInsets.only(left: 46.0),
-                  decoration: new BoxDecoration(
-                    color: new Color(0xFF333366),
+                  margin: EdgeInsets.only(left: 46.0),
+                  decoration:  BoxDecoration(
+                    color:  Color(0xFF6a1572),
                     shape: BoxShape.rectangle,
-                    borderRadius: new BorderRadius.circular(8.0),
+                    borderRadius: BorderRadius.circular(8.0),
                     boxShadow: <BoxShadow>[
-                      new BoxShadow(
+                       BoxShadow(
                         color: Colors.black12,
                         blurRadius: 10.0,
                         offset: new Offset(0.0, 10.0),
@@ -138,13 +138,13 @@ class Myapps extends StatelessWidget {
               child: Stack(children: <Widget>[
                 Container(
                   height: 124.0,
-                  margin: new EdgeInsets.only(left: 46.0),
-                  decoration: new BoxDecoration(
-                    color: new Color(0xFF333366),
+                  margin:  EdgeInsets.only(left: 46.0),
+                  decoration:  BoxDecoration(
+                    color:  Color(0xFF6a1572),
                     shape: BoxShape.rectangle,
-                    borderRadius: new BorderRadius.circular(8.0),
+                    borderRadius: BorderRadius.circular(8.0),
                     boxShadow: <BoxShadow>[
-                      new BoxShadow(
+                      BoxShadow(
                         color: Colors.black12,
                         blurRadius: 10.0,
                         offset: new Offset(0.0, 10.0),

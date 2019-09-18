@@ -21,14 +21,14 @@ class MessageMe extends StatelessWidget{
             elevation: 0.0,
             title: Text(
               'Maureen Josephine Akello',
-              style: TextStyle(color: Color(0xFF333366)),
+              style: TextStyle(color: Color(0xFF39065a),),
             ),
             centerTitle: true,
           ),
     
       body: Center (
         child: RaisedButton(
-          child:Text('Holla me📩😊',style: TextStyle(fontSize: 25.0),),
+          child:Text('Holla me📩😊',style: TextStyle(color:Color(0xFF39065a),fontSize: 25.0),),
         onPressed: (){
             _launchURL('onyangomaureen95@gmail.com', 'ContactMe');
         },

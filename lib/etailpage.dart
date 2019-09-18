@@ -10,7 +10,7 @@ class Etailor extends StatelessWidget {
           title: Text(
             'Etailor App',
             style: TextStyle(
-              color: Color(0xFF333366),
+              color: Color(0xFF39065a),
             ),
           ),
           centerTitle: true,
@@ -20,7 +20,7 @@ class Etailor extends StatelessWidget {
             Container(
               height: 300,
               decoration: BoxDecoration(
-                  color: Colors.purple,
+                  color: Color(0xFF6a1572),
                   borderRadius: BorderRadius.only(
                       bottomRight: Radius.circular(200.0),
                       bottomLeft: Radius.circular(200.0))),
@@ -32,28 +32,29 @@ class Etailor extends StatelessWidget {
                   width: 100,
                 )),
                 footer: Container(
-                    color: Colors.white,
+                    color: Colors.white60,
                     child: ListTile(
                       leading: Text(
                         'e-Tailor App',
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 20.0),
+                            fontWeight: FontWeight.bold,
+                            color: Color(0xFF0c084c),
+                             fontSize: 20.0),
                       ),
                       trailing: Icon(
                         Icons.favorite,
-                        color: Colors.purple,
+                        color: Color(0xFFed0cef),
                       ),
                     )),
               ),
             ),
-           
             Container(
               padding: EdgeInsets.all(16.0),
               child: Text(
                 'This is an app to help facilitate tailor'
                 '-client activities like sending measurement details,'
                 'sending desired clothe designs and fabric designs to the tailor.',
-                style: TextStyle(fontSize: 18),
+                style: TextStyle(fontSize: 16),
               ),
             )
           ],
