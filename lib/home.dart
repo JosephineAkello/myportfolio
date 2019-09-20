@@ -68,7 +68,7 @@ class HomeScreenState extends State<HomeScreen> {
                backgroundColor: Colors.transparent,
               child: ClipOval(
                 child: Image.asset(
-                "assets/mojo.jpg",
+                "assets/mojos.png",
                 fit: BoxFit.cover,
                 width: 125.0,
                 height: 125.0,
