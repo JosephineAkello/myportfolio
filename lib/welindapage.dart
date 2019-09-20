@@ -20,14 +20,14 @@ class WeLinda extends StatelessWidget {
           Container(
             height: 300,
             decoration: BoxDecoration(
-                color: Colors.purple,
+                color: Color(0xFF6a1572),
                 borderRadius: BorderRadius.only(
                     bottomRight: Radius.circular(200.0),
                     bottomLeft: Radius.circular(200.0))),
             child: GridTile(
               child: Container(
                   child: Image.asset(
-                "assets/gbv1.jpeg",
+                "assets/gbv1.png",
                 height: 100,
                 width: 100,
               )),
