@@ -160,7 +160,7 @@ class Myapps extends StatelessWidget {
                     ClipRRect(
                       borderRadius: new BorderRadius.circular(25.0),
                       child: Image(
-                        image: new AssetImage("assets/gbv1.jpeg"),
+                        image: new AssetImage("assets/gbv1.png"),
                         height: 92.0,
                         width: 92.0,
                       ),
