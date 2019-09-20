@@ -10,13 +10,15 @@ class SplashScreen extends StatefulWidget{
 
 class SplashScreenState extends State<SplashScreen>{
 
+@override
 void initState(){
   super.initState();
   loadData();
 }
 
 Future<Timer> loadData()async{
-  return Timer(Duration(seconds: 5), onDoneLoading);
+  return Timer(Duration(seconds: 4), 
+  onDoneLoading);
 }
 
 onDoneLoading() async {
