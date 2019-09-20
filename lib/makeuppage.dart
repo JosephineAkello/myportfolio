@@ -20,7 +20,7 @@ class MakeUp extends StatelessWidget {
             Container(
               height: 300,
               decoration: BoxDecoration(
-                  color: Colors.purple,
+                  color: Color(0xFF6a1572),
                   borderRadius: BorderRadius.only(
                       bottomRight: Radius.circular(200.0),
                       bottomLeft: Radius.circular(200.0))),
