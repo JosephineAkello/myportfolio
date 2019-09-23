@@ -59,11 +59,9 @@ class MyActivities extends StatelessWidget {
             'Reviewing submissions-Judge',
             textAlign: TextAlign.center,
             style: TextStyle(
-              
                 color: Color(0xFF39065a),
                 fontWeight: FontWeight.bold,
                 fontSize: 20.0),
-                  
           ),
           Padding(
             padding: EdgeInsets.all(16.0),

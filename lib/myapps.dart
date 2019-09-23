@@ -65,9 +65,12 @@ class Myapps extends StatelessWidget {
                     Padding(
                         padding: EdgeInsets.all(10.0),
                         child: FlatButton(
-                           onPressed: () {
-                            Navigator.push(context,MaterialPageRoute(builder: (context)=> MakeUp()));
-                          },
+                            onPressed: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => MakeUp()));
+                            },
                             child: Text(
                               'MakeUpBuddy',
                               style: TextStyle(
@@ -87,12 +90,12 @@ class Myapps extends StatelessWidget {
                 Container(
                   height: 124.0,
                   margin: EdgeInsets.only(left: 46.0),
-                  decoration:  BoxDecoration(
-                    color:  Color(0xFF6a1572),
+                  decoration: BoxDecoration(
+                    color: Color(0xFF6a1572),
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadius.circular(8.0),
                     boxShadow: <BoxShadow>[
-                       BoxShadow(
+                      BoxShadow(
                         color: Colors.black12,
                         blurRadius: 10.0,
                         offset: new Offset(0.0, 10.0),
@@ -117,7 +120,10 @@ class Myapps extends StatelessWidget {
                       padding: EdgeInsets.all(10.0),
                       child: FlatButton(
                           onPressed: () {
-                            Navigator.push(context,MaterialPageRoute(builder: (context)=> Etailor()));
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Etailor()));
                           },
                           child: Text(
                             'E-Tailor App',
@@ -138,9 +144,9 @@ class Myapps extends StatelessWidget {
               child: Stack(children: <Widget>[
                 Container(
                   height: 124.0,
-                  margin:  EdgeInsets.only(left: 46.0),
-                  decoration:  BoxDecoration(
-                    color:  Color(0xFF6a1572),
+                  margin: EdgeInsets.only(left: 46.0),
+                  decoration: BoxDecoration(
+                    color: Color(0xFF6a1572),
                     shape: BoxShape.rectangle,
                     borderRadius: BorderRadius.circular(8.0),
                     boxShadow: <BoxShadow>[
@@ -169,7 +175,10 @@ class Myapps extends StatelessWidget {
                       padding: EdgeInsets.all(10.0),
                       child: FlatButton(
                           onPressed: () {
-                            Navigator.push(context,MaterialPageRoute(builder: (context)=> WeLinda()));
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => WeLinda()));
                           },
                           child: Text(
                             'WeLinda App',

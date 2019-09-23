@@ -9,9 +9,7 @@ class Mylanguages extends StatelessWidget {
         elevation: 0.0,
         title: Text('My Languages/Skills',
             style: TextStyle(
-              color: Color(0xFF39065a),
-              fontWeight: FontWeight.bold
-            )),
+                color: Color(0xFF39065a), fontWeight: FontWeight.bold)),
       ),
       body: ListView(
         children: <Widget>[
@@ -25,47 +23,50 @@ class Mylanguages extends StatelessWidget {
             ),
             subtitle: Card(
               color: Color(0xFF6a1572),
-              child:  Padding(
-              padding: EdgeInsets.all(16.0),
-              child:Text(
-                " Dart,\n\n"
-                " Flutter,\n\n"
-                " Elixir,\n\n"
-                " Phoenix,\n\n"
-                " HTML/CSS,\n\n"
-                " Javascript\n\n"
-                " C#.",
-                style: TextStyle(
-                  fontSize: 16,
-                  color: Color(0xFFcaadde),
-                )),
+              child: Padding(
+                padding: EdgeInsets.all(16.0),
+                child: Text(
+                    " Dart,\n\n"
+                    " Flutter,\n\n"
+                    " Elixir,\n\n"
+                    " Phoenix,\n\n"
+                    " HTML/CSS,\n\n"
+                    " Javascript\n\n"
+                    " C#.",
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Color(0xFFcaadde),
+                    )),
               ),
             ),
           ),
           ListTile(
-            title: Text(
-              'Skills',
-              style: TextStyle(
-                  color: Color(0xFF39065a),
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold),
-            ),
-            subtitle: Card(
-              color: Color(0xFF6a1572),
-              child:  Padding(
-              padding: EdgeInsets.all(16.0),
-              child:Text(
-                " Git workflow,\n\n"
-                ' Linux,\n\n'
-                " Firebase,\n\n"
-                " SQL Database,\n\n"
-                " Agile Methodologies-Scrum,\n\n"
-                " Analysis of Algorithms,\n\n"
-                " Leadership and Collaboration.",
-                style: TextStyle(fontSize: 16, color: Color(0xFFcaadde),),
+              title: Text(
+                'Skills',
+                style: TextStyle(
+                    color: Color(0xFF39065a),
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold),
               ),
-            ),
-          ))
+              subtitle: Card(
+                color: Color(0xFF6a1572),
+                child: Padding(
+                  padding: EdgeInsets.all(16.0),
+                  child: Text(
+                    " Git workflow,\n\n"
+                    ' Linux,\n\n'
+                    " Firebase,\n\n"
+                    " SQL Database,\n\n"
+                    " Agile Methodologies-Scrum,\n\n"
+                    " Analysis of Algorithms,\n\n"
+                    " Leadership and Collaboration.",
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Color(0xFFcaadde),
+                    ),
+                  ),
+                ),
+              ))
         ],
       ),
     );

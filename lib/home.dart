@@ -65,14 +65,15 @@ class HomeScreenState extends State<HomeScreen> {
           ),
           body: ListView(padding: EdgeInsets.all(16.0), children: <Widget>[
             CircleAvatar(
-               backgroundColor: Colors.transparent,
+              backgroundColor: Colors.transparent,
               child: ClipOval(
                 child: Image.asset(
-                "assets/mojos.png",
-                fit: BoxFit.cover,
-                width: 125.0,
-                height: 125.0,
-              ), ),
+                  "assets/mojos.png",
+                  fit: BoxFit.cover,
+                  width: 125.0,
+                  height: 125.0,
+                ),
+              ),
               radius: 90.0,
             ),
             SizedBox(
@@ -88,8 +89,8 @@ class HomeScreenState extends State<HomeScreen> {
                   color: Colors.red,
                 ),
                 onTap: () {
-                    Navigator.of(context).push(MaterialPageRoute(
-        builder: (context) => Mylanguages()));
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => Mylanguages()));
                 },
               ),
             ),
@@ -99,16 +100,16 @@ class HomeScreenState extends State<HomeScreen> {
             Card(
               child: InkWell(
                 child: ListTile(
-                title: Text('My Apps'),
-                leading: Icon(
-                  Icons.apps,
-                  color: Colors.blue,
-                ),
-                onTap: (){
-                  Navigator.of(context).push(MaterialPageRoute(
-        builder: (context) => Myapps()));
-                }
-              ),),
+                    title: Text('My Apps'),
+                    leading: Icon(
+                      Icons.apps,
+                      color: Colors.blue,
+                    ),
+                    onTap: () {
+                      Navigator.of(context).push(
+                          MaterialPageRoute(builder: (context) => Myapps()));
+                    }),
+              ),
             ),
             SizedBox(
               height: 15.0,
@@ -120,13 +121,11 @@ class HomeScreenState extends State<HomeScreen> {
                   Icons.book,
                   color: Colors.green,
                 ),
-                onTap: ()  async {
-                      if (await canLaunch(
-                          'https://medium.com/@onyangomaureen95')) {
-                        await launch(
-                            'https://medium.com/@onyangomaureen95');
-                      }
-                    },
+                onTap: () async {
+                  if (await canLaunch('https://medium.com/@onyangomaureen95')) {
+                    await launch('https://medium.com/@onyangomaureen95');
+                  }
+                },
               ),
             ),
             // _widgetoptions.elementAt(_selecteditem),

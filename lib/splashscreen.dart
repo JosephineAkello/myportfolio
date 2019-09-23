@@ -2,36 +2,35 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'home.dart';
 
-class SplashScreen extends StatefulWidget{
-  createState(){
+class SplashScreen extends StatefulWidget {
+  createState() {
     return SplashScreenState();
   }
 }
 
-class SplashScreenState extends State<SplashScreen>{
+class SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    loadData();
+  }
 
-@override
-void initState(){
-  super.initState();
-  loadData();
-}
+  Future<Timer> loadData() async {
+    return Timer(Duration(seconds: 4), onDoneLoading);
+  }
 
-Future<Timer> loadData()async{
-  return Timer(Duration(seconds: 4), 
-  onDoneLoading);
-}
+  onDoneLoading() async {
+    Navigator.of(context)
+        .pushReplacement(MaterialPageRoute(builder: (context) => HomeScreen()));
+  }
 
-onDoneLoading() async {
-  Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => HomeScreen()));
-}
-  Widget build(context){
+  Widget build(context) {
     return Container(
       decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/Droidcon-5334.jpg'),
-          fit: BoxFit.fill,
-          )
-      ),
+          image: DecorationImage(
+        image: AssetImage('assets/Droidcon-5334.jpg'),
+        fit: BoxFit.fill,
+      )),
       child: Center(
         child: CircularProgressIndicator(
           valueColor: AlwaysStoppedAnimation<Color>(Colors.purpleAccent),

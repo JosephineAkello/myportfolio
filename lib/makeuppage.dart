@@ -37,7 +37,7 @@ class MakeUp extends StatelessWidget {
                       leading: Text(
                         'MakeUpBuddy App',
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, 
+                            fontWeight: FontWeight.bold,
                             color: Color(0xFF0c084c),
                             fontSize: 20.0),
                       ),
@@ -48,10 +48,8 @@ class MakeUp extends StatelessWidget {
                     )),
               ),
             ),
-           
             Container(
-             padding: EdgeInsets.all(16.0),
-          
+              padding: EdgeInsets.all(16.0),
               child: Text(
                   'This is an app to help in giving'
                   'makeup tips and tutorials on how to'

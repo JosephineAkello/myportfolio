@@ -16,7 +16,7 @@ class WeLinda extends StatelessWidget {
           centerTitle: true,
         ),
         body: SingleChildScrollView(
-          child:Column(children: <Widget>[
+            child: Column(children: <Widget>[
           Container(
             height: 300,
             decoration: BoxDecoration(
@@ -38,8 +38,8 @@ class WeLinda extends StatelessWidget {
                       'WeLinda App',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color:  Color(0xFF0c084c),
-                           fontSize: 20.0),
+                          color: Color(0xFF0c084c),
+                          fontSize: 20.0),
                     ),
                     trailing: Icon(
                       Icons.favorite,
@@ -48,10 +48,8 @@ class WeLinda extends StatelessWidget {
                   )),
             ),
           ),
-         
           Container(
             padding: EdgeInsets.all(16.0),
-           
             child: Text(
               'This is an app to help in voicing out '
               ' predicaments of those affected by GendeBased violence '
@@ -63,6 +61,6 @@ class WeLinda extends StatelessWidget {
               style: TextStyle(fontSize: 16),
             ),
           )
-        ])) );
+        ])));
   }
 }
