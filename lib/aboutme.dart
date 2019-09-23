@@ -88,7 +88,7 @@ class Aboutme extends StatelessWidget {
                 child: Text(
                   'When am not Coding..',
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: Colors.brown[100], fontSize: 20.0),
+                  style: TextStyle(color: Color(0xFFcaadde), fontSize: 20.0),
                 ),
               ),
               SizedBox(
