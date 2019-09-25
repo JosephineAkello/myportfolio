@@ -53,7 +53,7 @@ class Etailor extends StatelessWidget {
               child: Text(
                 'This is an app to help facilitate tailor'
                 '-client activities like sending measurement details,'
-                'sending desired clothe designs and fabric designs to the tailor.',
+                ' sending desired clothe designs and fabric designs to the tailor.',
                 style: TextStyle(fontSize: 16),
               ),
             )

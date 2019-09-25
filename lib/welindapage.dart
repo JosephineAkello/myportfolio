@@ -27,7 +27,7 @@ class WeLinda extends StatelessWidget {
             child: GridTile(
               child: Container(
                   child: Image.asset(
-                "assets/gbv1.png",
+                "assets/gbv1.jpg",
                 height: 100,
                 width: 100,
               )),
@@ -52,8 +52,8 @@ class WeLinda extends StatelessWidget {
             padding: EdgeInsets.all(16.0),
             child: Text(
               'This is an app to help in voicing out '
-              ' predicaments of those affected by GendeBased violence '
-              ' and helping them reporting cases of domestic violence to'
+              ' predicaments of those affected by Gender-Based violence '
+              ' and helping them to report cases of domestic violence to'
               ' the relevant authority and hospitals/organizations'
               ' handling the same. This project was cultivated  during'
               ' IWD hackathon and my team members are Chris Byron and '

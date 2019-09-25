@@ -51,9 +51,9 @@ class MakeUp extends StatelessWidget {
             Container(
               padding: EdgeInsets.all(16.0),
               child: Text(
-                  'This is an app to help in giving'
+                  'This is an app to help in giving '
                   'makeup tips and tutorials on how to'
-                  'apply them,with various recommendations that might work out well. ',
+                  ' apply them,with various recommendations that might work out well. ',
                   style: TextStyle(fontSize: 16)),
             )
           ],
