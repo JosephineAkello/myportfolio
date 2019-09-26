@@ -53,7 +53,7 @@ class WeLinda extends StatelessWidget {
             child: Text(
               'This is an app to help in voicing out '
               ' predicaments of those affected by Gender-Based violence '
-              ' and helping them to report cases of domestic violence to'
+              'and helping them to report cases of domestic violence to'
               ' the relevant authority and hospitals/organizations'
               ' handling the same. This project was cultivated  during'
               ' IWD hackathon and my team members are Chris Byron and '
