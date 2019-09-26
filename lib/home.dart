@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_custom_tabs/flutter_custom_tabs.dart' as prefix0;
 import 'package:myportfolio/myactivities.dart';
+import 'package:url_launcher/url_launcher.dart' as prefix1;
 import 'aboutme.dart';
 import 'messageme.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'myapps.dart';
 import 'mylanguages.dart';
+import 'package:flutter_custom_tabs/flutter_custom_tabs.dart';
 
 class HomeScreen extends StatefulWidget {
   createState() {
@@ -121,17 +124,41 @@ class HomeScreenState extends State<HomeScreen> {
                   Icons.book,
                   color: Colors.green,
                 ),
-                onTap: () async {
-                  if (await canLaunch('https://medium.com/@onyangomaureen95')) {
-                    await launch('https://medium.com/@onyangomaureen95');
-                  }
-                },
+                onTap: () => _launchUrl(context),
+                //  async {
+                //   if (await canLaunch('https://medium.com/@onyangomaureen95')) {
+                //     await launch('https://medium.com/@onyangomaureen95');
               ),
             ),
-            // _widgetoptions.elementAt(_selecteditem),
           ]),
         )
       ],
     );
+  }
+
+  void _launchUrl(BuildContext context) async {
+    try {
+      await prefix0.launch(
+        'https://medium.com/@onyangomaureen95',
+        option: new CustomTabsOption(
+          toolbarColor: Theme.of(context).primaryColor,
+          enableDefaultShare: true,
+          enableUrlBarHiding: true,
+          showPageTitle: true,
+          animation: new CustomTabsAnimation(
+            startEnter: 'slide_up',
+            startExit: 'android:anim/fade_out',
+            endEnter: 'android:anim/fade_in',
+            endExit: 'slide_down',
+          ),
+          extraCustomTabs: <String>[
+            'org.mozilla.firefox',
+            'com.microsoft.emmx',
+          ],
+        ),
+      );
+    } catch (e) {
+      debugPrint(e.toString());
+    }
   }
 }
