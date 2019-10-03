@@ -76,7 +76,7 @@ class Aboutme extends StatelessWidget {
                         style: TextStyle(
                             color: Color(0xFF420000),
                             fontWeight: FontWeight.bold)),
-                    onTap: () {},
+                    onTap: () =>_launchUrl(context),
                   ),
                   Padding(
                     padding: EdgeInsets.all(10.0),
