@@ -123,9 +123,6 @@ class HomeScreenState extends State<HomeScreen> {
                   color: Colors.green,
                 ),
                 onTap: () => _launchUrl(context),
-                //  async {
-                //   if (await canLaunch('https://medium.com/@onyangomaureen95')) {
-                //     await launch('https://medium.com/@onyangomaureen95');
               ),
             ),
           ]),
