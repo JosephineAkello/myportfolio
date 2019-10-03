@@ -9,7 +9,7 @@ via the email. :)
 ## Getting Started
 To contribute to this project, fork the repo, then clone the forked repo from your github account
 
-$git clone https://github.com/JosephineAkello/weLinda-app.git 
+$git clone https://github.com/JosephineAkello/myportfolio.git 
 
 To install dependencies run
 
