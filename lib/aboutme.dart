@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_tabs/flutter_custom_tabs.dart' as prefix1;
-import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_custom_tabs/flutter_custom_tabs.dart';
 import 'package:url_launcher/url_launcher.dart' as prefix0;
 
@@ -20,7 +19,9 @@ class Aboutme extends StatelessWidget {
             elevation: 0.0,
             title: Text(
               'About Me',
-              style: TextStyle(color: Color(0xFFcaadde),),
+              style: TextStyle(
+                color: Color(0xFFcaadde),
+              ),
             ),
             centerTitle: true,
           ),
@@ -72,10 +73,10 @@ class Aboutme extends StatelessWidget {
                   ),
                   InkWell(
                     child: Text('Link to Report by NextGen Fashion Weekend',
-                        style: TextStyle(color:  Color(0xFF420000), fontWeight: FontWeight.bold)),
-                    onTap: ()  {
-                      
-                    },
+                        style: TextStyle(
+                            color: Color(0xFF420000),
+                            fontWeight: FontWeight.bold)),
+                    onTap: () {},
                   ),
                   Padding(
                     padding: EdgeInsets.all(10.0),
@@ -108,25 +109,25 @@ class Aboutme extends StatelessWidget {
           ))
     ]);
   }
-  void _launchUrl(context) async{
-   try{
-     await prefix0.launch(
-       'https://web.facebook.com/kenyafashionawards/posts/961825364015071?__tn__=H-R',
-       option: CustomTabsOption(
-         toolbarColor: Theme.of(context).primaryColor,
-         enableDefaultShare: true,
-         enableUrlBarHiding: true,
-         showPageTitle: true,
-         animation: prefix1.CustomTabsAnimation.slideIn(),
-         extraCustomTabs: <String>[
-           'org.mozilla.firefox',
-           'com.microsoft.emmx',
-         ],
-       ),
-     );
-   }
-   catch(e){
-     debugPrint(e.toString());
-   }
+
+  void _launchUrl(context) async {
+    try {
+      await prefix0.launch(
+        'https://web.facebook.com/kenyafashionawards/posts/961825364015071?__tn__=H-R',
+        option: CustomTabsOption(
+          toolbarColor: Theme.of(context).primaryColor,
+          enableDefaultShare: true,
+          enableUrlBarHiding: true,
+          showPageTitle: true,
+          animation: prefix1.CustomTabsAnimation.slideIn(),
+          extraCustomTabs: <String>[
+            'org.mozilla.firefox',
+            'com.microsoft.emmx',
+          ],
+        ),
+      );
+    } catch (e) {
+      debugPrint(e.toString());
+    }
   }
 }
