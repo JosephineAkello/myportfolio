@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_custom_tabs/flutter_custom_tabs.dart' as prefix1;
 import 'package:flutter_custom_tabs/flutter_custom_tabs.dart';
-import 'package:url_launcher/url_launcher.dart' as prefix0;
 
 class Aboutme extends StatelessWidget {
   Widget build(context) {
@@ -76,7 +74,7 @@ class Aboutme extends StatelessWidget {
                         style: TextStyle(
                             color: Color(0xFF420000),
                             fontWeight: FontWeight.bold)),
-                    onTap: () =>_launchUrl(context),
+                    onTap: () => _launchUrl(context),
                   ),
                   Padding(
                     padding: EdgeInsets.all(10.0),
@@ -112,14 +110,14 @@ class Aboutme extends StatelessWidget {
 
   void _launchUrl(context) async {
     try {
-      await prefix0.launch(
+      await launch(
         'https://web.facebook.com/kenyafashionawards/posts/961825364015071?__tn__=H-R',
         option: CustomTabsOption(
           toolbarColor: Theme.of(context).primaryColor,
           enableDefaultShare: true,
           enableUrlBarHiding: true,
           showPageTitle: true,
-          animation: prefix1.CustomTabsAnimation.slideIn(),
+          animation: CustomTabsAnimation.slideIn(),
           extraCustomTabs: <String>[
             'org.mozilla.firefox',
             'com.microsoft.emmx',
