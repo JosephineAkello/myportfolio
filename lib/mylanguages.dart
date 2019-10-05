@@ -5,6 +5,10 @@ class Mylanguages extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xFFcaadde),
       appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.search),
+          onPressed: () {},
+        ),
         backgroundColor: Colors.transparent,
         elevation: 0.0,
         title: Text('My Languages/Skills',
@@ -28,9 +32,8 @@ class Mylanguages extends StatelessWidget {
                 child: Text(
                     " Dart,\n\n"
                     " Flutter,\n\n"
-                    " Elixir,\n\n"
-                    " Phoenix,\n\n"
                     " HTML/CSS,\n\n"
+                    " Elixir,\n\n"
                     " Javascript\n\n"
                     " C#.",
                     style: TextStyle(
