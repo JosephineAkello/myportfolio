@@ -5,10 +5,6 @@ class Mylanguages extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xFFcaadde),
       appBar: AppBar(
-        leading: IconButton(
-          icon: Icon(Icons.search),
-          onPressed: () {},
-        ),
         backgroundColor: Colors.transparent,
         elevation: 0.0,
         title: Text('My Languages/Skills',
