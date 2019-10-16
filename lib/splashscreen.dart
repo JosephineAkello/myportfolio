@@ -16,7 +16,7 @@ class SplashScreenState extends State<SplashScreen> {
   }
 
   Future<Timer> loadData() async {
-    return Timer(Duration(seconds: 4), onDoneLoading);
+    return Timer(Duration(seconds: 3), onDoneLoading);
   }
 
   onDoneLoading() async {
@@ -29,7 +29,7 @@ class SplashScreenState extends State<SplashScreen> {
       decoration: BoxDecoration(
           image: DecorationImage(
         image: AssetImage('assets/Droidcon-5334.jpg'),
-        fit: BoxFit.fill,
+        fit: BoxFit.cover,
       )),
       child: Center(
         child: CircularProgressIndicator(
