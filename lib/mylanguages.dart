@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:percent_indicator/percent_indicator.dart';
+import 'package:percent_indicator/linear_percent_indicator.dart';
 
 class Mylanguages extends StatelessWidget {
   Widget build(context) {
@@ -25,7 +27,9 @@ class Mylanguages extends StatelessWidget {
               color: Color(0xFF6a1572),
               child: Padding(
                 padding: EdgeInsets.all(16.0),
-                child: Text(
+                child: Column(
+                  children: [
+                    Text(
                     " Dart\n\n"
                     " Flutter\n\n"
                     " HTML/CSS\n\n"
