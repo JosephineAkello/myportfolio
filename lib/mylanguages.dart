@@ -26,10 +26,10 @@ class Mylanguages extends StatelessWidget {
               child: Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
-                    " Dart,\n\n"
-                    " Flutter,\n\n"
-                    " HTML/CSS,\n\n"
-                    " Elixir,\n\n"
+                    " Dart\n\n"
+                    " Flutter\n\n"
+                    " HTML/CSS\n\n"
+                    " Elixir\n\n"
                     " Javascript\n\n"
                     " C#.",
                     style: TextStyle(
@@ -52,13 +52,13 @@ class Mylanguages extends StatelessWidget {
                 child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(
-                    " Git workflow,\n\n"
-                    ' Linux,\n\n'
-                    " Firebase,\n\n"
-                    " SQL Database,\n\n"
-                    " Agile Methodologies-Scrum,\n\n"
-                    " Analysis of Algorithms,\n\n"
-                    " Leadership and Collaboration.",
+                    " Git workflow\n\n"
+                    ' Linux\n\n'
+                    " Firebase\n\n"
+                    " SQL Database\n\n"
+                    " Agile Methodologies\n\n"
+                    " Analysis of Algorithms\n\n"
+                    " Teamwork and Collaboration.",
                     style: TextStyle(
                       fontSize: 16,
                       color: Color(0xFFcaadde),
