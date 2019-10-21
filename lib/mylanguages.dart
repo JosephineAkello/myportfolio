@@ -29,8 +29,8 @@ class Mylanguages extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
-                       animation: true,
-                       animationDuration: 2000,
+                        animation: true,
+                        animationDuration: 2000,
                         width: 140.0,
                         lineHeight: 20.0,
                         leading: Text(
@@ -50,8 +50,8 @@ class Mylanguages extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
-                       animation: true,
-                       animationDuration: 2000,
+                        animation: true,
+                        animationDuration: 2000,
                         width: 140.0,
                         lineHeight: 20.0,
                         leading: Text(
@@ -77,7 +77,7 @@ class Mylanguages extends StatelessWidget {
                       child: LinearPercentIndicator(
                         alignment: MainAxisAlignment.start,
                         animation: true,
-                       animationDuration: 2000,
+                        animationDuration: 2000,
                         width: 140.0,
                         lineHeight: 20.0,
                         percent: 0.5,
@@ -102,7 +102,7 @@ class Mylanguages extends StatelessWidget {
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
                         animationDuration: 2000,
-                         animation: true,
+                        animation: true,
                         width: 140.0,
                         lineHeight: 20.0,
                         percent: 0.7,
@@ -122,7 +122,7 @@ class Mylanguages extends StatelessWidget {
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
                         animationDuration: 2000,
-                         animation: true,
+                        animation: true,
                         width: 140.0,
                         lineHeight: 20.0,
                         percent: 0.6,
