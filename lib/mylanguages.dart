@@ -29,7 +29,7 @@ class Mylanguages extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
-                        padding: EdgeInsets.all(10.0),
+                     
                         width: 140.0,
                         lineHeight: 20.0,
                         leading: Text(
@@ -49,7 +49,7 @@ class Mylanguages extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
-                        padding: EdgeInsets.all(10.0),
+                    
                         width: 140.0,
                         lineHeight: 20.0,
                         leading: Text(
@@ -73,7 +73,7 @@ class Mylanguages extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
-                        padding: EdgeInsets.all(16.0),
+                       
                         width: 140.0,
                         lineHeight: 20.0,
                         percent: 0.5,
@@ -97,7 +97,7 @@ class Mylanguages extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
-                        padding: EdgeInsets.all(10.0),
+                      
                         width: 140.0,
                         lineHeight: 20.0,
                         percent: 0.7,
@@ -116,7 +116,7 @@ class Mylanguages extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
-                        padding: EdgeInsets.all(10.0),
+                        
                         width: 140.0,
                         lineHeight: 20.0,
                         percent: 0.6,
@@ -135,10 +135,11 @@ class Mylanguages extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
-                        padding: EdgeInsets.all(10.0),
                         width: 140.0,
+                        animation: true,
                         lineHeight: 20.0,
-                        percent: 0.3,
+                        percent: 0.4,
+                        animationDuration: 2000,
                         leading: Text(
                           'C#',
                           style: TextStyle(
