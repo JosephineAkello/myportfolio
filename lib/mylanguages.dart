@@ -82,14 +82,14 @@ class Mylanguages extends StatelessWidget {
                         lineHeight: 20.0,
                         percent: 0.5,
                         leading: Text(
-                          'Elixir',
+                          'HTML/CSS',
                           style: TextStyle(
                             fontSize: 16,
                             color: Color(0xFFcaadde),
                           ),
                         ),
                         center: Text(
-                          "50.0%",
+                          "70.0%",
                           style: TextStyle(
                             color: Color(0xFF39065a),
                           ),
@@ -107,13 +107,13 @@ class Mylanguages extends StatelessWidget {
                         lineHeight: 20.0,
                         percent: 0.7,
                         leading: Text(
-                          'HTML/CSS',
+                          'JavaScript',
                           style: TextStyle(
                             fontSize: 16,
                             color: Color(0xFFcaadde),
                           ),
                         ),
-                        center: Text("70.0%"),
+                        center: Text("60.0%"),
                         backgroundColor: Colors.white24,
                         progressColor: Color(0xFFcaadde),
                       ),
@@ -127,13 +127,13 @@ class Mylanguages extends StatelessWidget {
                         lineHeight: 20.0,
                         percent: 0.6,
                         leading: Text(
-                          'JavaScript',
+                          'Elixir',
                           style: TextStyle(
                             fontSize: 16,
                             color: Color(0xFFcaadde),
                           ),
                         ),
-                        center: Text("60.0%"),
+                        center: Text("50.0%"),
                         backgroundColor: Colors.white24,
                         progressColor: Color(0xFFcaadde),
                       ),
