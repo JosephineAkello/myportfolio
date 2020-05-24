@@ -40,8 +40,8 @@ class Mylanguages extends StatelessWidget {
                             color: Color(0xFFcaadde),
                           ),
                         ),
-                        percent: 0.7,
-                        center: Text('70%'),
+                        percent: 0.8,
+                        center: Text('80%'),
                         progressColor: Color(0xFFcaadde),
                         linearStrokeCap: LinearStrokeCap.roundAll,
                         backgroundColor: Colors.white24,
@@ -61,9 +61,9 @@ class Mylanguages extends StatelessWidget {
                             color: Color(0xFFcaadde),
                           ),
                         ),
-                        percent: 0.7,
+                        percent: 0.8,
                         center: Text(
-                          "70.0%",
+                          "80.0%",
                           style: TextStyle(
                             color: Color(0xFF39065a),
                           ),
