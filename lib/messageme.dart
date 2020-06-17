@@ -33,7 +33,7 @@ class MessageMe extends StatelessWidget {
               style: TextStyle(color: Color(0xFF39065a), fontSize: 25.0),
             ),
             onPressed: () {
-              _launchURL('onyangomaureen95@gmail.com', 'ContactMe');
+              _launchURL('josephineakello2030@gmail.com', 'ContactMe');
             },
           ),
         ),
