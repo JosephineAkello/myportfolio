@@ -46,7 +46,11 @@ class HomeScreenState extends State<HomeScreen> {
             elevation: 0.0,
             title: Text(
               'Maureen Josephine Akello',
-              style: TextStyle(color: Colors.purple[100]),
+              style: TextStyle(
+                fontSize: 40.0,
+              
+                fontFamily: 'Pacifico',
+                color: Colors.white)
             ),
             centerTitle: true,
           ),
@@ -77,6 +81,15 @@ class HomeScreenState extends State<HomeScreen> {
               ),
               radius: 90.0,
             ),
+            Center(
+              child:Text("SOFTWARE ENGINEER",
+            style: TextStyle(
+              fontFamily: 'Source Sans Pro',
+              letterSpacing: 2.5,
+              fontWeight: FontWeight.bold,
+              fontSize: 20.0,
+              color: Colors.purple[50]
+            ))),
             SizedBox(
               height: 15.0,
             ),
