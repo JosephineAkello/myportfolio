@@ -47,8 +47,7 @@ class HomeScreenState extends State<HomeScreen> {
             title: Text(
               'Maureen Josephine Akello',
               style: TextStyle(
-                fontSize: 40.0,
-              
+                fontSize: 28.0,
                 fontFamily: 'Pacifico',
                 color: Colors.white)
             ),
@@ -87,7 +86,7 @@ class HomeScreenState extends State<HomeScreen> {
               fontFamily: 'Source Sans Pro',
               letterSpacing: 2.5,
               fontWeight: FontWeight.bold,
-              fontSize: 20.0,
+              fontSize: 18.0,
               color: Colors.purple[50]
             ))),
             SizedBox(
@@ -97,6 +96,11 @@ class HomeScreenState extends State<HomeScreen> {
               child: ListTile(
                 title: Text(
                   'Languages/Skills',
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    color: Colors.black87,
+                    fontWeight: FontWeight.bold
+                  ),
                 ),
                 leading: Icon(
                   Icons.filter_vintage,
@@ -114,7 +118,13 @@ class HomeScreenState extends State<HomeScreen> {
             Card(
               child: InkWell(
                 child: ListTile(
-                    title: Text('My Apps'),
+                    title: Text('My Apps',
+                    style: TextStyle(
+                    fontSize: 18.0,
+                    color: Colors.black87,
+                    fontWeight: FontWeight.bold
+                  ),
+                    ),
                     leading: Icon(
                       Icons.apps,
                       color: Colors.blue,
@@ -130,7 +140,13 @@ class HomeScreenState extends State<HomeScreen> {
             ),
             Card(
               child: ListTile(
-                title: Text('My Blogs'),
+                title: Text('My Blogs',
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    color: Colors.black87,
+                    fontWeight: FontWeight.bold
+                  ),
+                ),
                 leading: Icon(
                   Icons.book,
                   color: Colors.green,
