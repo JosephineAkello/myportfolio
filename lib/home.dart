@@ -67,7 +67,9 @@ class HomeScreenState extends State<HomeScreen> {
             selectedItemColor: Colors.deepPurple,
             onTap: _onItemTapped,
           ),
-          body: ListView(padding: EdgeInsets.all(16.0), children: <Widget>[
+          body: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+             children: <Widget>[
             CircleAvatar(
               backgroundColor: Colors.transparent,
               child: ClipOval(
@@ -91,15 +93,20 @@ class HomeScreenState extends State<HomeScreen> {
             ))),
             SizedBox(
               height: 15.0,
+              width: 150.0,
+              child: Divider(
+                color: Colors.purpleAccent,
+              ),
             ),
             Card(
+              margin: EdgeInsets.symmetric(vertical: 10.0,
+              horizontal: 25.0),
               child: ListTile(
                 title: Text(
                   'Languages/Skills',
                   style: TextStyle(
                     fontSize: 18.0,
                     color: Colors.black87,
-                    fontWeight: FontWeight.bold
                   ),
                 ),
                 leading: Icon(
@@ -116,13 +123,15 @@ class HomeScreenState extends State<HomeScreen> {
               height: 15.0,
             ),
             Card(
+               margin: EdgeInsets.symmetric(vertical: 10.0,
+              horizontal: 25.0),
               child: InkWell(
                 child: ListTile(
                     title: Text('My Apps',
                     style: TextStyle(
                     fontSize: 18.0,
                     color: Colors.black87,
-                    fontWeight: FontWeight.bold
+
                   ),
                     ),
                     leading: Icon(
@@ -139,12 +148,13 @@ class HomeScreenState extends State<HomeScreen> {
               height: 15.0,
             ),
             Card(
+               margin: EdgeInsets.symmetric(vertical: 10.0,
+              horizontal: 25.0),
               child: ListTile(
                 title: Text('My Blogs',
                   style: TextStyle(
                     fontSize: 18.0,
                     color: Colors.black87,
-                    fontWeight: FontWeight.bold
                   ),
                 ),
                 leading: Icon(
