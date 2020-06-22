@@ -95,7 +95,7 @@ class HomeScreenState extends State<HomeScreen> {
               height: 15.0,
               width: 150.0,
               child: Divider(
-                color: Colors.purpleAccent,
+                color: Colors.purple[200],
               ),
             ),
             Card(
