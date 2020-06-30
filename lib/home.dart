@@ -92,7 +92,7 @@ class HomeScreenState extends State<HomeScreen> {
               color: Colors.purple[50]
             ))),
             SizedBox(
-              height: 15.0,
+              height: 20.0,
               width: 150.0,
               child: Divider(
                 color: Colors.purple[200],
