@@ -1,4 +1,4 @@
-package com.example.myportfolio
+package com.jakello.myportfolio
 
 import android.os.Bundle
 
