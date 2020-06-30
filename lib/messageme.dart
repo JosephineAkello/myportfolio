@@ -22,6 +22,8 @@ class MessageMe extends StatelessWidget {
             'Maureen Josephine Akello',
             style: TextStyle(
               color: Color(0xFF39065a),
+               fontSize: 25.0,
+                fontFamily: 'Pacifico',
             ),
           ),
           centerTitle: true,
