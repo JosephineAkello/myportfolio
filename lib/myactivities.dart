@@ -11,6 +11,8 @@ class MyActivities extends StatelessWidget {
           'My Volunteer Activities',
           style: TextStyle(
             color: Color(0xFF39065a),
+            fontSize: 30.0,
+                fontFamily: 'Pacifico',
           ),
         ),
         centerTitle: true,
@@ -60,8 +62,8 @@ class MyActivities extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
                 color: Color(0xFF39065a),
-                fontWeight: FontWeight.bold,
-                fontSize: 20.0),
+                fontFamily: 'Pacifico',
+                fontSize: 30.0),
           ),
           Padding(
             padding: EdgeInsets.all(16.0),
@@ -94,8 +96,8 @@ class MyActivities extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
                 color: Color(0xFF39065a),
-                fontWeight: FontWeight.bold,
-                fontSize: 20.0),
+                fontFamily: 'Pacifico',
+                fontSize: 30.0),
           ),
           SizedBox(
             height: 15.0,

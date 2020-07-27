@@ -55,16 +55,13 @@ flutter:
   # the material Icons class.
    uses-material-design: true
    assets:
-     - assets/Droidcon-4991.jpg
      - assets/mojos.png
-     - assets/gbv1.png
      - assets/Droidcon-4993.jpg
      - assets/kicc.jpg
      - assets/kicc2.jpg
      - assets/Droidcon-5334.jpg
      - assets/sewingtools.jpg
      - assets/makeuptools.jpg
-     - assets/gbv1.jpeg
      - assets/gbv1.jpg
      - assets/pplebck.jpeg
      - assets/bgpple1.jpg
