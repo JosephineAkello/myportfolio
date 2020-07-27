@@ -19,6 +19,8 @@ class Aboutme extends StatelessWidget {
               'About Me',
               style: TextStyle(
                 color: Color(0xFFcaadde),
+                fontFamily: 'Pacifico',
+                fontSize: 30.0
               ),
             ),
             centerTitle: true,
@@ -47,7 +49,10 @@ class Aboutme extends StatelessWidget {
                 child: Text(
                   'Things I love..',
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: Color(0xFFcaadde), fontSize: 20.0),
+                  style: TextStyle(
+                    color: Color(0xFFcaadde),
+                     fontFamily: 'Pacifico',
+                     fontSize: 30.0),
                 ),
               ),
               SizedBox(
@@ -86,7 +91,9 @@ class Aboutme extends StatelessWidget {
                 child: Text(
                   'When am not Coding..',
                   textAlign: TextAlign.center,
-                  style: TextStyle(color: Color(0xFFcaadde), fontSize: 20.0),
+                  style: TextStyle(color: Color(0xFFcaadde),
+                   fontFamily: 'Pacifico',
+                   fontSize: 30.0),
                 ),
               ),
               SizedBox(
