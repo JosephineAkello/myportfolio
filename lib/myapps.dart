@@ -13,12 +13,15 @@ class Myapps extends StatelessWidget {
         title: Text(
           'My Apps',
           style: TextStyle(
-            color: Color(0xFF333366),
+            color: Color(0xFF39065a),
+            fontFamily: 'Pacifico',
+            fontSize: 25.0,
           ),
         ),
         centerTitle: true,
       ),
       body: Column(
+         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Container(
             height: 120.0,
@@ -67,7 +70,9 @@ class Myapps extends StatelessWidget {
                           child: Text(
                             'MakeUpBuddy',
                             style: TextStyle(
-                                fontSize: 20.0, color: Colors.purple[100]),
+                               fontFamily: 'Source Sans Pro',
+                               fontWeight: FontWeight.bold,
+                                fontSize: 23.0, color: Colors.purple[100]),
                           ))),
                 ]),
               ),
@@ -121,7 +126,9 @@ class Myapps extends StatelessWidget {
                         child: Text(
                           'E-Tailor App',
                           style: TextStyle(
-                              fontSize: 20.0, color: Colors.purple[100]),
+                            fontFamily: 'Source Sans Pro',
+                            fontWeight: FontWeight.bold,
+                              fontSize: 23.0, color: Colors.purple[100]),
                         )),
                   ),
                 ]),
@@ -176,7 +183,9 @@ class Myapps extends StatelessWidget {
                         child: Text(
                           'WeLinda App',
                           style: TextStyle(
-                              fontSize: 20.0, color: Colors.purple[100]),
+                             fontFamily: 'Source Sans Pro',
+                             fontWeight: FontWeight.bold,
+                              fontSize: 23.0, color: Colors.purple[100]),
                         )),
                   ),
                 ]),
