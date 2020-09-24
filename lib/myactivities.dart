@@ -24,16 +24,22 @@ class MyActivities extends StatelessWidget {
               child: Card(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0)),
-                color: Color(0xFF6a1572),
+                color: Color(0xFF712079),
                 child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(
                     'Community service activities define who I am.'
-                    'I volunteered to hold a Flutter session talk at Google'
-                    'Developers Festival in Kisumu-Kenya GirlsGetGeeky '
-                    'program in Nakuru-Kenya, Android 254 meetup and DroidconKe19 '
-                    'conference to enlighten people on this technology.\n',
-                    style: TextStyle(color: Color(0xFFcaadde), fontSize: 16.0),
+                    'I have been a Speaker at these events: \n'
+                    '1. DevFest - Kisumu \n'
+                    '2. DevFest - Nairobi \n'
+                    '3. GirlsGetGeeky - Nakuru\n'
+                    '4. Android 254 meetup \n'
+                    '5. DroidconKe19 \n'
+                    '6. Atlassian workshop - Kisii \n'
+                    '7. Flutter Kisumu \n',
+                    style: TextStyle(color: Color(0xFFcaadde),
+                    fontFamily: 'Source Sans Pro',
+                     fontSize: 25.0),
                   ),
                 ),
               )),
@@ -68,7 +74,7 @@ class MyActivities extends StatelessWidget {
           Padding(
             padding: EdgeInsets.all(16.0),
             child: Card(
-              color: Color(0xFF6a1572),
+              color: Color(0xFF712079),
               child: Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
@@ -83,7 +89,9 @@ class MyActivities extends StatelessWidget {
                   'solve them using Artifcial Intelligence and Machine Learning with their parents. '
                   'being in the lead of mentoring them through the invention process. It was '
                   'fulflling to see the kids use creativity and solve the challenges using Artifcial intelligence.\n',
-                  style: TextStyle(color: Color(0xFFcaadde), fontSize: 16),
+                  style: TextStyle(color: Color(0xFFcaadde), 
+                  fontFamily: 'Source Sans Pro',
+                  fontSize: 25.0),
                 ),
               ),
             ),
@@ -107,7 +115,7 @@ class MyActivities extends StatelessWidget {
             child: Card(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5.0)),
-              color: Color(0xFF6a1572),
+              color:Color(0xFF712079),
               child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(
@@ -123,7 +131,9 @@ class MyActivities extends StatelessWidget {
                     'to learn of this new approach from me of identifying and solving problems. '
                     'The project we worked on was on use of technology to handle fistula cases. '
                     'The girl’s fistula appliccation is currently published at Google Play Store\n',
-                    style: TextStyle(color: Color(0xFFcaadde), fontSize: 16),
+                    style: TextStyle(color: Color(0xFFcaadde),
+                    fontFamily: 'Source Sans Pro',
+                    fontSize: 25.0),
                   )),
             ),
           )
