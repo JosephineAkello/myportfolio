@@ -22,7 +22,7 @@ class MessageMe extends StatelessWidget {
             'Maureen Josephine Akello',
             style: TextStyle(
               color: Color(0xFF39065a),
-               fontSize: 25.0,
+               fontSize: 28.0,
                 fontFamily: 'Pacifico',
             ),
           ),
@@ -32,7 +32,7 @@ class MessageMe extends StatelessWidget {
           child: RaisedButton(
             child: Text(
               'Holla me📩😊',
-              style: TextStyle(color: Color(0xFF39065a), fontSize: 25.0),
+              style: TextStyle(color: Color(0xFF39065a), fontSize: 27.0),
             ),
             onPressed: () {
               _launchURL('josephineakello2030@gmail.com', 'ContactMe');
