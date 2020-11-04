@@ -34,7 +34,7 @@ class HomeScreenState extends State<HomeScreen> {
     return Stack(
       children: <Widget>[
         Image.asset(
-          'assets/bgpple1.jpg',
+          'assets/im.jpg',
           height: MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
           fit: BoxFit.cover,
