@@ -64,8 +64,10 @@ flutter:
      - assets/sewingtools.jpg
      - assets/makeuptools.jpg
      - assets/gbv1.png
+     - assets/gbv1.jpg
      - assets/pplebck.jpeg
      - assets/bgpple1.jpg
+     - assets/im.jpg
      
  
    fonts:
