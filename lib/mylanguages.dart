@@ -11,7 +11,9 @@ class Mylanguages extends StatelessWidget {
           elevation: 0.0,
           title: Text('My Languages/Skills',
               style: TextStyle(
-                  color: Color(0xFF39065a), fontWeight: FontWeight.bold)),
+                  fontSize: 30.0,
+                  fontFamily: 'Pacifico',
+                  color: Color(0xFF39065a))),
         ),
         body: ListView(children: <Widget>[
           ListTile(
@@ -19,8 +21,8 @@ class Mylanguages extends StatelessWidget {
                 textAlign: TextAlign.left,
                 style: TextStyle(
                     color: Color(0xFF39065a),
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.bold)),
+                    fontSize: 30.0,
+                    fontFamily: 'Pacifico')),
             subtitle: Card(
                 color: Color(0xFF6a1572),
                 child: Padding(
@@ -40,8 +42,9 @@ class Mylanguages extends StatelessWidget {
                             color: Color(0xFFcaadde),
                           ),
                         ),
+                        padding: EdgeInsets.all(5.0),
                         percent: 0.8,
-                        center: Text('80%'),
+                        trailing: Text('80%'),
                         progressColor: Color(0xFFcaadde),
                         linearStrokeCap: LinearStrokeCap.roundAll,
                         backgroundColor: Colors.white24,
@@ -165,9 +168,9 @@ class Mylanguages extends StatelessWidget {
               title: Text(
                 'Skills',
                 style: TextStyle(
+                    fontFamily: 'Pacifico',
                     color: Color(0xFF39065a),
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
+                    fontSize: 30),
               ),
               subtitle: Card(
                 color: Color(0xFF6a1572),
