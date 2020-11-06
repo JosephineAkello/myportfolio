@@ -10,7 +10,9 @@ class WeLinda extends StatelessWidget {
           title: Text(
             'WeLinda App',
             style: TextStyle(
+              fontFamily: 'Pacifico',
               color: Color(0xFF39065a),
+              fontSize: 30.0,
             ),
           ),
           centerTitle: true,
@@ -20,7 +22,7 @@ class WeLinda extends StatelessWidget {
           Container(
             height: 300,
             decoration: BoxDecoration(
-                color: Color(0xFF6a1572),
+                color: Color(0xFF741172),
                 borderRadius: BorderRadius.only(
                     bottomRight: Radius.circular(200.0),
                     bottomLeft: Radius.circular(200.0))),
@@ -39,7 +41,8 @@ class WeLinda extends StatelessWidget {
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Color(0xFF0c084c),
-                          fontSize: 20.0),
+                          fontFamily: 'Source Sans Pro',
+                          fontSize: 24.0),
                     ),
                     trailing: Icon(
                       Icons.favorite,
@@ -58,7 +61,7 @@ class WeLinda extends StatelessWidget {
               ' handling the same. This project was cultivated  during'
               ' IWD hackathon and my team members are Chris Byron and '
               ' Linkon Keros.',
-              style: TextStyle(fontSize: 16),
+              style: TextStyle(fontSize: 20),
             ),
           )
         ])));
