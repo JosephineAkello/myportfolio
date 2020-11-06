@@ -11,6 +11,8 @@ class Etailor extends StatelessWidget {
             'Etailor App',
             style: TextStyle(
               color: Color(0xFF39065a),
+              fontFamily: 'Pacifico',
+              fontSize: 30.0,
             ),
           ),
           centerTitle: true,
@@ -20,7 +22,7 @@ class Etailor extends StatelessWidget {
             Container(
               height: 300,
               decoration: BoxDecoration(
-                  color: Color(0xFF6a1572),
+                  color: Color(0xFF741172),
                   borderRadius: BorderRadius.only(
                       bottomRight: Radius.circular(200.0),
                       bottomLeft: Radius.circular(200.0))),
@@ -39,7 +41,8 @@ class Etailor extends StatelessWidget {
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Color(0xFF0c084c),
-                             fontSize: 20.0),
+                            fontFamily: 'Source Sans Pro',
+                            fontSize: 24.0),
                       ),
                       trailing: Icon(
                         Icons.favorite,
@@ -54,7 +57,7 @@ class Etailor extends StatelessWidget {
                 'This is an app to help facilitate tailor'
                 '-client activities like sending measurement details,'
                 ' sending desired clothe designs and fabric designs to the tailor.',
-                style: TextStyle(fontSize: 16),
+                style: TextStyle(fontSize: 20),
               ),
             )
           ],
