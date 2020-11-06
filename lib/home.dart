@@ -176,7 +176,7 @@ class HomeScreenState extends State<HomeScreen> {
       await prefix0.launch(
         'https://medium.com/@onyangomaureen95',
         option: new CustomTabsOption(
-          toolbarColor: Theme.of(context).primaryColor,
+          toolbarColor: Color(0xFF741172),
           enableDefaultShare: true,
           enableUrlBarHiding: true,
           showPageTitle: true,
