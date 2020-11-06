@@ -34,7 +34,7 @@ class Myapps extends StatelessWidget {
                 height: 124.0,
                 margin: EdgeInsets.only(left: 46.0),
                 decoration: BoxDecoration(
-                  color: Color(0xFF6a1572),
+                  color: Color(0xFF741172),
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(8.0),
                   boxShadow: <BoxShadow>[
@@ -89,7 +89,7 @@ class Myapps extends StatelessWidget {
                 height: 124.0,
                 margin: EdgeInsets.only(left: 46.0),
                 decoration: BoxDecoration(
-                  color: Color(0xFF6a1572),
+                  color: Color(0xFF741172),
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(8.0),
                   boxShadow: <BoxShadow>[
@@ -146,7 +146,7 @@ class Myapps extends StatelessWidget {
                 height: 124.0,
                 margin: EdgeInsets.only(left: 46.0),
                 decoration: BoxDecoration(
-                  color: Color(0xFF6a1572),
+                  color: Color(0xFF741172),
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(8.0),
                   boxShadow: <BoxShadow>[
