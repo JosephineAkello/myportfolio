@@ -24,7 +24,7 @@ class MyActivities extends StatelessWidget {
               child: Card(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0)),
-                color: Color(0xFF712079),
+                color: Color(0xFF741172),
                 child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(
@@ -74,7 +74,7 @@ class MyActivities extends StatelessWidget {
           Padding(
             padding: EdgeInsets.all(16.0),
             child: Card(
-              color: Color(0xFF712079),
+              color: Color(0xFF741172),
               child: Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
@@ -109,7 +109,7 @@ class MyActivities extends StatelessWidget {
             child: Card(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5.0)),
-              color:Color(0xFF712079),
+              color:Color(0xFF741172),
               child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(

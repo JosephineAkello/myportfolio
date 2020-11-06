@@ -24,7 +24,7 @@ class Mylanguages extends StatelessWidget {
                     fontSize: 30.0,
                     fontFamily: 'Pacifico')),
             subtitle: Card(
-                color: Color(0xFF6a1572),
+                color: Color(0xFF741172),
                 child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Column(mainAxisSize: MainAxisSize.min, children: [
@@ -38,13 +38,17 @@ class Mylanguages extends StatelessWidget {
                         leading: Text(
                           'Dart',
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 20,
                             color: Color(0xFFcaadde),
                           ),
                         ),
-                        padding: EdgeInsets.all(5.0),
                         percent: 0.8,
-                        trailing: Text('80%'),
+                        center: Text(
+                          "80.0%",
+                          style: TextStyle(
+                            color: Color(0xFF39065a),
+                          ),
+                        ),
                         progressColor: Color(0xFFcaadde),
                         linearStrokeCap: LinearStrokeCap.roundAll,
                         backgroundColor: Colors.white24,
@@ -60,7 +64,7 @@ class Mylanguages extends StatelessWidget {
                         leading: Text(
                           'Flutter',
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 20,
                             color: Color(0xFFcaadde),
                           ),
                         ),
@@ -85,9 +89,9 @@ class Mylanguages extends StatelessWidget {
                         lineHeight: 20.0,
                         percent: 0.5,
                         leading: Text(
-                          'HTML/CSS',
+                          'Html/Css',
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 20,
                             color: Color(0xFFcaadde),
                           ),
                         ),
@@ -112,7 +116,7 @@ class Mylanguages extends StatelessWidget {
                         leading: Text(
                           'JavaScript',
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 20,
                             color: Color(0xFFcaadde),
                           ),
                         ),
@@ -132,7 +136,7 @@ class Mylanguages extends StatelessWidget {
                         leading: Text(
                           'Elixir',
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 20,
                             color: Color(0xFFcaadde),
                           ),
                         ),
@@ -152,7 +156,7 @@ class Mylanguages extends StatelessWidget {
                         leading: Text(
                           'C#',
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 20,
                             color: Color(0xFFcaadde),
                           ),
                         ),
@@ -173,7 +177,7 @@ class Mylanguages extends StatelessWidget {
                     fontSize: 30),
               ),
               subtitle: Card(
-                color: Color(0xFF6a1572),
+                color: Color(0xFF741172),
                 child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(
@@ -185,7 +189,7 @@ class Mylanguages extends StatelessWidget {
                     " Analysis of Algorithms\n\n"
                     " Teamwork and Collaboration.",
                     style: TextStyle(
-                      fontSize: 16,
+                      fontSize: 20,
                       color: Color(0xFFcaadde),
                     ),
                   ),
