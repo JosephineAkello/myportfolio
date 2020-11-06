@@ -11,6 +11,8 @@ class MakeUp extends StatelessWidget {
             'MakeUp Buddy',
             style: TextStyle(
               color: Color(0xFF39065a),
+              fontFamily: 'Pacifico',
+              fontSize: 30.0,
             ),
           ),
           centerTitle: true,
@@ -20,7 +22,7 @@ class MakeUp extends StatelessWidget {
             Container(
               height: 300,
               decoration: BoxDecoration(
-                  color: Color(0xFF6a1572),
+                  color: Color(0xFF741172),
                   borderRadius: BorderRadius.only(
                       bottomRight: Radius.circular(200.0),
                       bottomLeft: Radius.circular(200.0))),
@@ -38,8 +40,9 @@ class MakeUp extends StatelessWidget {
                         'MakeUpBuddy App',
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
+                            fontFamily: 'Source Sans Pro',
                             color: Color(0xFF0c084c),
-                            fontSize: 20.0),
+                            fontSize: 24.0),
                       ),
                       trailing: Icon(
                         Icons.favorite,
@@ -55,7 +58,7 @@ class MakeUp extends StatelessWidget {
                   'This is an app to help in giving '
                   'makeup tips and tutorials on how to'
                   ' apply them,with various recommendations that might work out well. ',
-                  style: TextStyle(fontSize: 16)),
+                  style: TextStyle(fontSize: 20)),
             )
           ],
         ));
