@@ -28,7 +28,7 @@ class Aboutme extends StatelessWidget {
           body: ListView(
             children: <Widget>[
               Card(
-                color: Color(0xFFcaadde),
+                color: Color(0xFFBB93D6),
                 child: Padding(
                   padding: EdgeInsets.all(10.0),
                   child: Text(
@@ -62,13 +62,13 @@ class Aboutme extends StatelessWidget {
                 height: 15.0,
               ),
               Card(
-                color: Color(0xFFcaadde),
+                color: Color(0xFFBB93D6),
                 child: Column(children: <Widget>[
                   Padding(
                     padding: EdgeInsets.all(10.0),
                     child: Text(
                       'Besides coding, I am very much passionate about'
-                      'fashion design. I always believe, that Technology'
+                      ' fashion design. I always believe, that Technology'
                       'impacts fashion industry in terms of brand'
                       ' awareness and the changing market trends,'
                       'scaling fashion to new heights.\n\n'
@@ -111,7 +111,7 @@ class Aboutme extends StatelessWidget {
                 height: 15.0,
               ),
               Card(
-                color: Color(0xFFcaadde),
+                color: Color(0xFFBB93D6),
                 child: Padding(
                   padding: EdgeInsets.all(10.0),
                   child: Text(
