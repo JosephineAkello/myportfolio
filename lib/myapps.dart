@@ -6,7 +6,7 @@ import 'package:myportfolio/welindapage.dart';
 class Myapps extends StatelessWidget {
   Widget build(context) {
     return Scaffold(
-      backgroundColor: Color(0xFFcaadde),
+      backgroundColor: Color(0xFFBB93D6),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0.0,
@@ -34,7 +34,7 @@ class Myapps extends StatelessWidget {
                 height: 124.0,
                 margin: EdgeInsets.only(left: 46.0),
                 decoration: BoxDecoration(
-                  color: Color(0xFF741172),
+                  color: Color(0xFFefb1ff),
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(8.0),
                   boxShadow: <BoxShadow>[
@@ -72,8 +72,8 @@ class Myapps extends StatelessWidget {
                             style: TextStyle(
                                fontFamily: 'Source Sans Pro',
                                fontWeight: FontWeight.bold,
-                                fontSize: 23.0, color: Colors.purple[100]),
-                          ))),
+                                fontSize: 23.0, color: Color(0xFF39065a),
+                   ) ))),
                 ]),
               ),
             ]),
@@ -89,7 +89,7 @@ class Myapps extends StatelessWidget {
                 height: 124.0,
                 margin: EdgeInsets.only(left: 46.0),
                 decoration: BoxDecoration(
-                  color: Color(0xFF741172),
+                  color: Color(0xFFefb1ff),
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(8.0),
                   boxShadow: <BoxShadow>[
@@ -128,7 +128,7 @@ class Myapps extends StatelessWidget {
                           style: TextStyle(
                             fontFamily: 'Source Sans Pro',
                             fontWeight: FontWeight.bold,
-                              fontSize: 23.0, color: Colors.purple[100]),
+                              fontSize: 23.0, color: Color(0xFF39065a)),
                         )),
                   ),
                 ]),
@@ -146,7 +146,7 @@ class Myapps extends StatelessWidget {
                 height: 124.0,
                 margin: EdgeInsets.only(left: 46.0),
                 decoration: BoxDecoration(
-                  color: Color(0xFF741172),
+                  color: Color(0xFFefb1ff),
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(8.0),
                   boxShadow: <BoxShadow>[
@@ -185,7 +185,7 @@ class Myapps extends StatelessWidget {
                           style: TextStyle(
                              fontFamily: 'Source Sans Pro',
                              fontWeight: FontWeight.bold,
-                              fontSize: 23.0, color: Colors.purple[100]),
+                              fontSize: 23.0, color: Color(0xFF39065a)),
                         )),
                   ),
                 ]),
