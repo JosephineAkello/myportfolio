@@ -5,7 +5,7 @@ import 'package:percent_indicator/linear_percent_indicator.dart';
 class Mylanguages extends StatelessWidget {
   Widget build(context) {
     return Scaffold(
-        backgroundColor: Color(0xFFcaadde),
+        backgroundColor: Color(0xFFBB93D6),
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0.0,
