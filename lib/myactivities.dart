@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class MyActivities extends StatelessWidget {
   Widget build(context) {
     return Scaffold(
-      backgroundColor: Color(0xFFcaadde),
+      backgroundColor: Color(0xFFBB93D6),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0.0,
@@ -113,13 +113,16 @@ class MyActivities extends StatelessWidget {
               child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(
-                    'I was priviledged to mentor high school students for the '
-                    'Technovation challenge that is held every year Globally. I worked with '
-                    'a team of five young girls to identify and solve a community problem '
-                    'through use of technology. The mentorship process involved guiding the '
-                    'girls in the design thinking approach we adopted to implement the '
-                    'projects’ goals. Design thinking was deemed ideal as it enabled them '
-                    'go through a brainstorming process to better understand the problem '
+                    'I was priviledged to mentor high school students'
+                    'for the Technovation challenge that is held every'
+                    'year Globally. I worked with a team of five young'
+                    'girls to identify and solve a community problem'
+                    'through use of technology. The mentorship process'
+                    'involved guiding the girls in the design thinking'
+                    'approach we adopted to implement the '
+                    'projects’ goals. Design thinking was deemed ideal'
+                    'as it enabled them go through a brainstorming '
+                    'process to better understand the problem '
                     'to be solved.\n',
                     style: TextStyle(color: Color(0xFFcaadde),
                     fontFamily: 'Source Sans Pro',
