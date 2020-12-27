@@ -32,11 +32,12 @@ class Aboutme extends StatelessWidget {
                 child: Padding(
                   padding: EdgeInsets.all(10.0),
                   child: Text(
-                    'Am a mobile developer enthusiast interested in learning '
-                    ' new technologies, geared towards solving challenges that in '
-                    'the end help to make work easier.\n\n'
-                    'I have hands on experience in Flutter, a technology developed by Google '
-                    'that runs on both Android and iOS devices from a Single code base.',
+                    'Am a mobile developer enthusiast interested in'
+                    'learning new technologies, geared towards solving'
+                    'challenges that in the end help to make work easier.\n\n'
+                    'I have hands on experience in Flutter, a technology'
+                    'developed by Google that runs on both Android'
+                    'and iOS devices from a Single code base.',
                     style: TextStyle(
                       fontFamily: 'Source Sans Pro',
                       fontSize: 25.0),
@@ -66,12 +67,17 @@ class Aboutme extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(10.0),
                     child: Text(
-                      'Besides coding, I am very much passionate about fashion design. '
-                      'I always believe, that Technology impacts fashion industry in terms of brand'
-                      ' awareness and the changing market trends, scaling fashion to new heights.\n\n'
-                      'I was privilledged to participate in Kenya Fashion Awards competitions in 2018 '
-                      'with fashion and design students. My designs received positive feedback '
-                      'and got featured in report by NextGen Fashion weekend facebook post. Find it in the '
+                      'Besides coding, I am very much passionate about'
+                      'fashion design. I always believe, that Technology'
+                      'impacts fashion industry in terms of brand'
+                      ' awareness and the changing market trends,'
+                      'scaling fashion to new heights.\n\n'
+                      'I was privilledged to participate in Kenya'
+                      'Fashion Awards competitions in 2018 '
+                      'with fashion and design students. My designs'
+                      'received positive feedback and got featured'
+                      'in report by NextGen Fashion weekend facebook'
+                      'post. Find it in the '
                       'link below: ',
                       style: TextStyle(
                         fontFamily: 'Source Sans Pro',
