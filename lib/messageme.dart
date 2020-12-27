@@ -14,7 +14,7 @@ class MessageMe extends StatelessWidget {
   Widget build(context) {
     return Stack(children: <Widget>[
       Scaffold(
-        backgroundColor: Color(0xFFcaadde),
+        backgroundColor: Color(0xFFBB93D6),
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0.0,
