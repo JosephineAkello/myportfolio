@@ -22,7 +22,7 @@ class Etailor extends StatelessWidget {
             Container(
               height: 300,
               decoration: BoxDecoration(
-                  color: Color(0xFF741172),
+                  color: Color(0xFF5F045E),
                   borderRadius: BorderRadius.only(
                       bottomRight: Radius.circular(200.0),
                       bottomLeft: Radius.circular(200.0))),

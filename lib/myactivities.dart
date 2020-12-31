@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_custom_tabs/flutter_custom_tabs.dart';
 
 class MyActivities extends StatelessWidget {
   Widget build(context) {
@@ -24,10 +25,12 @@ class MyActivities extends StatelessWidget {
               child: Card(
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(5.0)),
-                color: Color(0xFF741172),
+                color: Color(0xFF5F045E),
                 child: Padding(
                   padding: EdgeInsets.all(16.0),
-                  child: Text(
+                  child: Column(
+                    children: [
+                      Text(
                     'Community service activities define who I am.'
                     'I have been a Speaker at these events: \n'
                     '1. DevFest - Kisumu \n'
@@ -36,11 +39,22 @@ class MyActivities extends StatelessWidget {
                     '4. Android 254 meetup \n'
                     '5. DroidconKe19 \n'
                     '6. Atlassian workshop - Kisii \n'
-                    '7. Flutter Kisumu \n',
+                    '7. Flutter Kisumu \n'
+                    '8. Flutter Denver - Colorado \n',
                     style: TextStyle(color: Color(0xFFcaadde),
                     fontFamily: 'Source Sans Pro',
                      fontSize: 25.0),
                   ),
+                  InkWell(
+                    child: Text('Here is the link to my Speaker Deck',
+                        style: TextStyle(
+                          fontSize: 19.0,
+                           fontFamily:  'Pacifico',
+                            color: Color(0xFFD7E4E4),
+                          )),
+                    onTap: () => _launchUrl(context),
+                  ),
+                  ]),
                 ),
               )),
           SizedBox(
@@ -74,7 +88,7 @@ class MyActivities extends StatelessWidget {
           Padding(
             padding: EdgeInsets.all(16.0),
             child: Card(
-              color: Color(0xFF741172),
+              color: Color(0xFF5F045E),
               child: Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
@@ -109,7 +123,7 @@ class MyActivities extends StatelessWidget {
             child: Card(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5.0)),
-              color:Color(0xFF741172),
+              color:Color(0xFF5F045E),
               child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(
@@ -133,5 +147,26 @@ class MyActivities extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  void _launchUrl(context) async {
+    try {
+      await launch(
+        'https://speakerdeck.com/maureenjosephine',
+        option: CustomTabsOption(
+          toolbarColor: Theme.of(context).primaryColor,
+          enableDefaultShare: true,
+          enableUrlBarHiding: true,
+          showPageTitle: true,
+          animation: CustomTabsAnimation.slideIn(),
+          extraCustomTabs: <String>[
+            'org.mozilla.firefox',
+            'com.microsoft.emmx',
+          ],
+        ),
+      );
+    } catch (e) {
+      debugPrint(e.toString());
+    }
   }
 }

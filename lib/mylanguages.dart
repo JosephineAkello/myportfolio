@@ -24,7 +24,7 @@ class Mylanguages extends StatelessWidget {
                     fontSize: 30.0,
                     fontFamily: 'Pacifico')),
             subtitle: Card(
-                color: Color(0xFF741172),
+                color: Color(0xFF5F045E),
                 child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Column(mainAxisSize: MainAxisSize.min, children: [
@@ -177,7 +177,7 @@ class Mylanguages extends StatelessWidget {
                     fontSize: 30),
               ),
               subtitle: Card(
-                color: Color(0xFF741172),
+                color: Color(0xFF5F045E),
                 child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(

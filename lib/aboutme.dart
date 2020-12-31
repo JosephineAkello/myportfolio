@@ -11,7 +11,7 @@ class Aboutme extends StatelessWidget {
         fit: BoxFit.cover,
       ),
       Scaffold(
-          backgroundColor:Color(0xFF741172),
+          backgroundColor:Color(0xFF5F045E),
           appBar: AppBar(
             backgroundColor: Colors.transparent,
             elevation: 0.0,
