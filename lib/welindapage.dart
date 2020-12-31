@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class WeLinda extends StatelessWidget {
   Widget build(contxet) {
     return Scaffold(
-        backgroundColor: Color(0xFFcaadde),
+        backgroundColor: Color(0xFFBB93D6),
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0.0,

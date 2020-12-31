@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class MakeUp extends StatelessWidget {
   Widget build(contxet) {
     return Scaffold(
-        backgroundColor: Color(0xFFcaadde),
+        backgroundColor: Color(0xFFBB93D6),
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0.0,
@@ -57,7 +57,8 @@ class MakeUp extends StatelessWidget {
               child: Text(
                   'This is an app to help in giving '
                   'makeup tips and tutorials on how to'
-                  ' apply them,with various recommendations that might work out well. ',
+                  'apply them,with various recommendations'
+                  'that might work out well. ',
                   style: TextStyle(fontSize: 20)),
             )
           ],
