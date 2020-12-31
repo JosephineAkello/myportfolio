@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'app.dart';
 import 'package:sentry/sentry.dart';
 import 'dart:async';
+import 'mysecretes.dart';
 
 
-final sentry = SentryClient(dsn: "https://sentry.io/jakello/my-portfolio");
+final sentry = SentryClient(dsn: "{$mydsn}");
 
 bool get isInDebugMode {
   bool inDebugMode = false;
