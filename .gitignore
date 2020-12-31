@@ -28,6 +28,7 @@
 .pub-cache/
 .pub/
 /build/
+/lib/mysecretes.dart
 
 # Android related
 **/android/**/gradle-wrapper.jar
@@ -37,6 +38,7 @@
 **/android/gradlew.bat
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
+
 
 # iOS/XCode related
 **/ios/**/*.mode1v3

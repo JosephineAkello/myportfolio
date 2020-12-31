@@ -5,5 +5,5 @@ gradle-wrapper.jar
 /gradlew.bat
 /local.properties
 /key.properties
-/secretes.dart
+/lib/mysecretes.dart
 GeneratedPluginRegistrant.java
