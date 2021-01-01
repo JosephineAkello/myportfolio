@@ -31,7 +31,7 @@ class WeLinda extends StatelessWidget {
                   child: Image.asset(
                 "assets/gbv1.jpg",
                 height: 100,
-                width: 100,
+                width: 150,
               )),
               footer: Container(
                   color: Colors.white60,
