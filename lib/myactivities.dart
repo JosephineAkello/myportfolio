@@ -48,7 +48,7 @@ class MyActivities extends StatelessWidget {
                   InkWell(
                     child: Text('Here is the link to my Speaker Deck',
                         style: TextStyle(
-                          fontSize: 19.0,
+                          fontSize: 22.0,
                            fontFamily:  'Pacifico',
                             color: Color(0xFFD7E4E4),
                           )),
@@ -127,14 +127,14 @@ class MyActivities extends StatelessWidget {
               child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(
-                    'I was priviledged to mentor high school students'
-                    'for the Technovation challenge that is held every'
-                    'year Globally. I worked with a team of five young'
-                    'girls to identify and solve a community problem'
-                    'through use of technology. The mentorship process'
-                    'involved guiding the girls in the design thinking'
+                    'I was priviledged to mentor high school students '
+                    'for the Technovation challenge that is held every '
+                    'year Globally. I worked with a team of five young '
+                    'girls to identify and solve a community problem '
+                    'through use of technology. The mentorship process '
+                    'involved guiding the girls in the design thinking '
                     'approach we adopted to implement the '
-                    'projects’ goals. Design thinking was deemed ideal'
+                    'projects’ goals. Design thinking was deemed ideal '
                     'as it enabled them go through a brainstorming '
                     'process to better understand the problem '
                     'to be solved.\n',
