@@ -16,6 +16,10 @@
         - unnecessary_overrides
         - unnecessary_lambdas
         - unnecessary_brace_in_string_interps
+        - avoid_redundant_argument_values
+        - leading_newlines_in_multiline_strings
+        - unnecessary_new
+        - void_checks
       # formatting
         - lines_longer_than_80_chars
         - curly_braces_in_flow_control_structures
