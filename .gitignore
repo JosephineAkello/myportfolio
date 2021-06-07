@@ -27,7 +27,9 @@
 .packages
 .pub-cache/
 .pub/
+.flutter-plugins-dependencies
 /build/
+/.vscode/
 /lib/mysecretes.dart
 
 # Android related
