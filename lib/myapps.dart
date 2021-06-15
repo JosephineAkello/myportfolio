@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:myportfolio/etailpage.dart';
-import 'package:myportfolio/makeuppage.dart';
-import 'package:myportfolio/welindapage.dart';
+import 'etailpage.dart';
+import 'makeuppage.dart';
+import 'welindapage.dart';
 
 class Myapps extends StatelessWidget {
   Widget build(context) {
