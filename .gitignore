@@ -31,6 +31,8 @@
 /build/
 /.vscode/
 /lib/mysecretes.dart
+/lib/generated_plugin_registrant.dart
+
 
 # Android related
 **/android/**/gradle-wrapper.jar
@@ -40,6 +42,7 @@
 **/android/gradlew.bat
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
+/android/settings_aar.gradle
 
 
 # iOS/XCode related
