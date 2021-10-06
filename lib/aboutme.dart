@@ -1,16 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_custom_tabs/flutter_custom_tabs.dart';
 
 class Aboutme extends StatelessWidget {
   Widget build(context) {
-    return Stack(children: <Widget>[
-      Image.asset(
-        'assets/bgpple1.jpg',
-        height: MediaQuery.of(context).size.height,
-        width: MediaQuery.of(context).size.width,
-        fit: BoxFit.cover,
-      ),
-      Scaffold(
+    return Scaffold(
           backgroundColor:Color(0xFF5F045E),
           appBar: AppBar(
             backgroundColor: Colors.transparent,
@@ -90,7 +82,7 @@ class Aboutme extends StatelessWidget {
                           fontSize: 19.0,
                             color: Color(0xFF420000),
                             fontWeight: FontWeight.bold)),
-                    onTap: () => _launchUrl(context),
+                    onTap: (){},
                   ),
                   Padding(
                     padding: EdgeInsets.all(10.0),
@@ -124,28 +116,7 @@ class Aboutme extends StatelessWidget {
                 ),
               )
             ],
-          ))
-    ]);
-  }
+          ));
 
-  void _launchUrl(context) async {
-    try {
-      await launch(
-        'https://web.facebook.com/kenyafashionawards/posts/961825364015071?__tn__=H-R',
-        option: CustomTabsOption(
-          toolbarColor: Theme.of(context).primaryColor,
-          enableDefaultShare: true,
-          enableUrlBarHiding: true,
-          showPageTitle: true,
-          animation: CustomTabsAnimation.slideIn(),
-          extraCustomTabs: <String>[
-            'org.mozilla.firefox',
-            'com.microsoft.emmx',
-          ],
-        ),
-      );
-    } catch (e) {
-      debugPrint(e.toString());
-    }
   }
 }
