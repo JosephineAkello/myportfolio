@@ -44,13 +44,11 @@ class HomeScreenState extends State<HomeScreen> {
           appBar: AppBar(
             backgroundColor: Colors.transparent,
             elevation: 0.0,
-            title: Text(
-              'Maureen Josephine Akello',
-              style: TextStyle(
-                fontSize: 28.0,
-                fontFamily: 'Pacifico',
-                color: Colors.white)
-            ),
+            title: Text('Maureen Josephine Akello',
+                style: TextStyle(
+                    fontSize: 28.0,
+                    fontFamily: 'Pacifico',
+                    color: Colors.white)),
             centerTitle: true,
           ),
           bottomNavigationBar: BottomNavigationBar(
@@ -67,9 +65,8 @@ class HomeScreenState extends State<HomeScreen> {
             selectedItemColor: Colors.deepPurple,
             onTap: _onItemTapped,
           ),
-          body: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-             children: <Widget>[
+          body: Column(mainAxisAlignment: MainAxisAlignment.center, children: <
+              Widget>[
             CircleAvatar(
               backgroundColor: Colors.transparent,
               child: ClipOval(
@@ -83,14 +80,13 @@ class HomeScreenState extends State<HomeScreen> {
               radius: 90.0,
             ),
             Center(
-              child:Text("SOFTWARE ENGINEER",
-            style: TextStyle(
-              fontFamily: 'Source Sans Pro',
-              letterSpacing: 2.5,
-              fontWeight: FontWeight.bold,
-              fontSize: 18.0,
-              color: Colors.purple[50]
-            ))),
+                child: Text("SOFTWARE ENGINEER",
+                    style: TextStyle(
+                        fontFamily: 'Source Sans Pro',
+                        letterSpacing: 2.5,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18.0,
+                        color: Colors.purple[50]))),
             SizedBox(
               height: 30.0,
               width: 150.0,
@@ -100,8 +96,7 @@ class HomeScreenState extends State<HomeScreen> {
               ),
             ),
             Card(
-              margin: EdgeInsets.symmetric(vertical: 10.0,
-              horizontal: 25.0),
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
               child: ListTile(
                 title: Text(
                   'Languages/Skills',
@@ -124,16 +119,15 @@ class HomeScreenState extends State<HomeScreen> {
               height: 15.0,
             ),
             Card(
-               margin: EdgeInsets.symmetric(vertical: 10.0,
-              horizontal: 25.0),
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
               child: InkWell(
                 child: ListTile(
-                    title: Text('My Apps',
-                    style: TextStyle(
-                    fontSize: 18.0,
-                    color: Colors.black87,
-
-                  ),
+                    title: Text(
+                      'My Apps',
+                      style: TextStyle(
+                        fontSize: 18.0,
+                        color: Colors.black87,
+                      ),
                     ),
                     leading: Icon(
                       Icons.apps,
@@ -149,10 +143,10 @@ class HomeScreenState extends State<HomeScreen> {
               height: 15.0,
             ),
             Card(
-               margin: EdgeInsets.symmetric(vertical: 10.0,
-              horizontal: 25.0),
+              margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
               child: ListTile(
-                title: Text('My Blogs',
+                title: Text(
+                  'My Blogs',
                   style: TextStyle(
                     fontSize: 18.0,
                     color: Colors.black87,
@@ -175,12 +169,12 @@ class HomeScreenState extends State<HomeScreen> {
     try {
       await prefix0.launch(
         'https://medium.com/@onyangomaureen95',
-        option: new CustomTabsOption(
+        customTabsOption: CustomTabsOption(
           toolbarColor: Color(0xFF5F045E),
           enableDefaultShare: true,
           enableUrlBarHiding: true,
           showPageTitle: true,
-          animation: new CustomTabsAnimation.slideIn(),
+          animation: prefix0.CustomTabsSystemAnimation.slideIn(),
           extraCustomTabs: <String>[
             'org.mozilla.firefox',
             'com.microsoft.emmx',
