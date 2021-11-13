@@ -13,7 +13,7 @@ class MyActivities extends StatelessWidget {
           style: TextStyle(
             color: Color(0xFF39065a),
             fontSize: 30.0,
-                fontFamily: 'Pacifico',
+            fontFamily: 'Pacifico',
           ),
         ),
         centerTitle: true,
@@ -28,32 +28,32 @@ class MyActivities extends StatelessWidget {
                 color: Color(0xFF5F045E),
                 child: Padding(
                   padding: EdgeInsets.all(16.0),
-                  child: Column(
-                    children: [
-                      Text(
-                    'Community service activities define who I am.'
-                    'I have been a Speaker at these events: \n'
-                    '1. DevFest - Kisumu \n'
-                    '2. DevFest - Nairobi \n'
-                    '3. GirlsGetGeeky - Nakuru\n'
-                    '4. Android 254 meetup \n'
-                    '5. DroidconKe19 \n'
-                    '6. Atlassian workshop - Kisii \n'
-                    '7. Flutter Kisumu \n'
-                    '8. Flutter Denver - Colorado \n',
-                    style: TextStyle(color: Color(0xFFcaadde),
-                    fontFamily: 'Source Sans Pro',
-                     fontSize: 25.0),
-                  ),
-                  InkWell(
-                    child: Text('Here is the link to my Speaker Deck',
-                        style: TextStyle(
-                          fontSize: 22.0,
-                           fontFamily:  'Pacifico',
+                  child: Column(children: [
+                    Text(
+                      'Community service activities define who I am.'
+                      'I have been a Speaker at these events: \n'
+                      '1. DevFest - Kisumu \n'
+                      '2. DevFest - Nairobi \n'
+                      '3. GirlsGetGeeky - Nakuru\n'
+                      '4. Android 254 meetup \n'
+                      '5. DroidconKe19 \n'
+                      '6. Atlassian workshop - Kisii \n'
+                      '7. Flutter Kisumu \n'
+                      '8. Flutter Denver - Colorado \n',
+                      style: TextStyle(
+                          color: Color(0xFFcaadde),
+                          fontFamily: 'Source Sans Pro',
+                          fontSize: 25.0),
+                    ),
+                    InkWell(
+                      child: Text('Here is the link to my Speaker Deck',
+                          style: TextStyle(
+                            fontSize: 22.0,
+                            fontFamily: 'Pacifico',
                             color: Color(0xFFD7E4E4),
                           )),
-                    onTap: () => _launchUrl(context),
-                  ),
+                      onTap: () => _launchUrl(context),
+                    ),
                   ]),
                 ),
               )),
@@ -97,9 +97,10 @@ class MyActivities extends StatelessWidget {
                   '1. Technovation Challenge19 \n'
                   '2. Technovation Challenge20 \n'
                   '3. AI family Challenge - Curiosity Machine\n',
-                  style: TextStyle(color: Color(0xFFcaadde), 
-                  fontFamily: 'Source Sans Pro',
-                  fontSize: 25.0),
+                  style: TextStyle(
+                      color: Color(0xFFcaadde),
+                      fontFamily: 'Source Sans Pro',
+                      fontSize: 25.0),
                 ),
               ),
             ),
@@ -123,7 +124,7 @@ class MyActivities extends StatelessWidget {
             child: Card(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(5.0)),
-              color:Color(0xFF5F045E),
+              color: Color(0xFF5F045E),
               child: Padding(
                   padding: EdgeInsets.all(16.0),
                   child: Text(
@@ -138,9 +139,10 @@ class MyActivities extends StatelessWidget {
                     'as it enabled them go through a brainstorming '
                     'process to better understand the problem '
                     'to be solved.\n',
-                    style: TextStyle(color: Color(0xFFcaadde),
-                    fontFamily: 'Source Sans Pro',
-                    fontSize: 25.0),
+                    style: TextStyle(
+                        color: Color(0xFFcaadde),
+                        fontFamily: 'Source Sans Pro',
+                        fontSize: 25.0),
                   )),
             ),
           )
@@ -153,12 +155,12 @@ class MyActivities extends StatelessWidget {
     try {
       await launch(
         'https://speakerdeck.com/maureenjosephine',
-        option: CustomTabsOption(
+        customTabsOption: CustomTabsOption(
           toolbarColor: Theme.of(context).primaryColor,
           enableDefaultShare: true,
           enableUrlBarHiding: true,
           showPageTitle: true,
-          animation: CustomTabsAnimation.slideIn(),
+          animation: CustomTabsSystemAnimation.slideIn(),
           extraCustomTabs: <String>[
             'org.mozilla.firefox',
             'com.microsoft.emmx',

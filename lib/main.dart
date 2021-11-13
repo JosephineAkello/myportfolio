@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'app.dart';
 import 'package:sentry/sentry.dart';
 import 'dart:async';
-import 'mysecretes.dart';
+// import 'mysecretes.dart';
 
-
-final sentry = SentryClient(dsn: "{$mydsn}");
+// final sentry = SentryClient(dsn: "{$mydsn}");
 
 bool get isInDebugMode {
   bool inDebugMode = false;
@@ -25,18 +24,18 @@ Future<Null> _reportError(dynamic error, dynamic stackTrace) async {
     return;
   }
 
-    print('Reporting to Sentry.io...');
+  print('Reporting to Sentry.io...');
 
-  final SentryResponse response = await sentry.captureException(
-    exception: error,
-    stackTrace: stackTrace,
-  );
+  // final SentryResponse response = await sentry.captureException(
+  //   exception: error,
+  //   stackTrace: stackTrace,
+  // );
 
-  if (response.isSuccessful) {
-    print('Success! Event ID: ${response.eventId}');
-  } else {
-    print('Failed to report to Sentry.io: ${response.error}');
-  }
+  // if (response.isSuccessful) {
+  //   print('Success! Event ID: ${response.eventId}');
+  // } else {
+  //   print('Failed to report to Sentry.io: ${response.error}');
+  // }
 }
 
 Future<Null> main() async {
@@ -48,7 +47,7 @@ Future<Null> main() async {
     } else {
       // In production mode report to the application zone to report to
       // Sentry.
-      Zone.current.handleUncaughtError(details.exception, details.stack);
+      // Zone.current.handleUncaughtError(details.exception, details.stack);
     }
   };
 
@@ -58,15 +57,3 @@ Future<Null> main() async {
     await _reportError(error, stackTrace);
   });
 }
- 
-
-
-
-
-
-
-
-
-
-
-
