@@ -35,13 +35,12 @@ class Myapps extends StatelessWidget {
                 margin: EdgeInsets.only(left: 46.0),
                 decoration: BoxDecoration(
                   color: Color(0xFFefb1ff),
-                  shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(8.0),
                   boxShadow: <BoxShadow>[
                     BoxShadow(
                       color: Colors.black12,
                       blurRadius: 10.0,
-                      offset: new Offset(0.0, 10.0),
+                      offset: Offset(0.0, 10.0),
                     ),
                   ],
                 ),
@@ -90,13 +89,12 @@ class Myapps extends StatelessWidget {
                 margin: EdgeInsets.only(left: 46.0),
                 decoration: BoxDecoration(
                   color: Color(0xFFefb1ff),
-                  shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(8.0),
                   boxShadow: <BoxShadow>[
                     BoxShadow(
                       color: Colors.black12,
                       blurRadius: 10.0,
-                      offset: new Offset(0.0, 10.0),
+                      offset: Offset(0.0, 10.0),
                     ),
                   ],
                 ),
@@ -147,7 +145,6 @@ class Myapps extends StatelessWidget {
                 margin: EdgeInsets.only(left: 46.0),
                 decoration: BoxDecoration(
                   color: Color(0xFFefb1ff),
-                  shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(8.0),
                   boxShadow: <BoxShadow>[
                     BoxShadow(
