@@ -175,18 +175,19 @@ class HomeScreenState extends State<HomeScreen> {
     try {
       await prefix0.launch(
         'https://medium.com/@onyangomaureen95',
-        option: CustomTabsOption(
+        customTabsOption: CustomTabsOption(
           toolbarColor: Color(0xFF5F045E),
           enableDefaultShare: true,
           enableUrlBarHiding: true,
           showPageTitle: true,
-          animation: CustomTabsAnimation.slideIn(),
+          animation: CustomTabsSystemAnimation.slideIn(),
           extraCustomTabs: <String>[
             'org.mozilla.firefox',
             'com.microsoft.emmx',
           ],
         ),
       );
+    // ignore: avoid_catches_without_on_clauses
     } catch (e) {
       debugPrint(e.toString());
     }
