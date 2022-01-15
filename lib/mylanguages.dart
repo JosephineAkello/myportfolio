@@ -82,7 +82,6 @@ class Mylanguages extends StatelessWidget {
                     Padding(
                       padding: EdgeInsets.all(16.0),
                       child: LinearPercentIndicator(
-                        alignment: MainAxisAlignment.start,
                         animation: true,
                         animationDuration: 2000,
                         width: 140.0,
