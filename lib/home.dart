@@ -56,12 +56,12 @@ class HomeScreenState extends State<HomeScreen> {
           bottomNavigationBar: BottomNavigationBar(
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(
-                  icon: Icon(Icons.person), title: Text('AboutMe')),
+                  icon: Icon(Icons.person), label: 'AboutMe'),
               BottomNavigationBarItem(
                   icon: Icon(Icons.local_activity),
-                  title: Text('MyActivities')),
+                  label: 'MyActivities'),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.email), title: Text('MessageMe')),
+                  icon: Icon(Icons.email), label: 'MessageMe'),
             ],
             currentIndex: _selecteditem,
             selectedItemColor: Colors.deepPurple,
@@ -175,12 +175,12 @@ class HomeScreenState extends State<HomeScreen> {
     try {
       await prefix0.launch(
         'https://medium.com/@onyangomaureen95',
-        option: new CustomTabsOption(
+        option: CustomTabsOption(
           toolbarColor: Color(0xFF5F045E),
           enableDefaultShare: true,
           enableUrlBarHiding: true,
           showPageTitle: true,
-          animation: new CustomTabsAnimation.slideIn(),
+          animation: CustomTabsAnimation.slideIn(),
           extraCustomTabs: <String>[
             'org.mozilla.firefox',
             'com.microsoft.emmx',
