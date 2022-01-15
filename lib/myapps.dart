@@ -59,7 +59,7 @@ class Myapps extends StatelessWidget {
                   ),
                   Padding(
                       padding: EdgeInsets.all(10.0),
-                      child: FlatButton(
+                      child: TextButton(
                           onPressed: () {
                             Navigator.push(
                                 context,
@@ -114,7 +114,7 @@ class Myapps extends StatelessWidget {
                   ),
                   Padding(
                     padding: EdgeInsets.all(10.0),
-                    child: FlatButton(
+                    child: TextButton(
                         onPressed: () {
                           Navigator.push(
                               context,
@@ -170,7 +170,7 @@ class Myapps extends StatelessWidget {
                   ),
                   Padding(
                     padding: EdgeInsets.all(10.0),
-                    child: FlatButton(
+                    child: TextButton(
                         onPressed: () {
                           Navigator.push(
                               context,
