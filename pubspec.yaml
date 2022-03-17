@@ -27,6 +27,7 @@ dependencies:
   flutter_custom_tabs: ^1.0.1
   percent_indicator: ^3.0.1
   sentry_flutter: ^6.3.0
+  flutter_gherkin: ^2.0.0
   
 
   
