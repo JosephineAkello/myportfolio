@@ -30,9 +30,12 @@ class MessageMe extends StatelessWidget {
         ),
         body: Center(
           child: ElevatedButton(
+            style: ButtonStyle(backgroundColor: 
+            MaterialStateProperty.all<Color>(Color(0xFF39065a),
+            )),
             child: Text(
               'Holla me📩😊',
-              style: TextStyle(color: Color(0xFF39065a), 
+              style: TextStyle(color: Color(0xFFBB93D6), 
               fontWeight: FontWeight.bold,
               fontFamily: 'Source Sans Pro',
               fontSize: 30.0),

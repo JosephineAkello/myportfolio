@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_tabs/flutter_custom_tabs.dart' as prefix0;
-import 'package:myportfolio/myactivities.dart';
-import 'aboutme.dart';
-import 'messageme.dart';
-import 'myapps.dart';
-import 'mylanguages.dart';
+import 'package:myportfolio/screens/Activities/myactivities.dart';
+import '../About/aboutme.dart';
+import '../Message/messageme.dart';
+import '../../MyApps/myapps.dart';
+import '../Languages/mylanguages.dart';
 import 'package:flutter_custom_tabs/flutter_custom_tabs.dart';
 
 class HomeScreen extends StatefulWidget {
