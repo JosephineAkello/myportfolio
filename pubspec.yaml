@@ -28,7 +28,7 @@ dependencies:
   url_launcher: ^6.0.6
   flutter_custom_tabs: ^1.0.1
   percent_indicator: ^3.0.1
-  sentry_flutter: ^6.3.0
+  sentry_flutter: ^6.8.0
   flutter_gherkin: ^2.0.0
   
 
