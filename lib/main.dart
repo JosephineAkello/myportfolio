@@ -7,8 +7,7 @@ import 'mysecretes.dart';
 
 Future<void> main() async {
   await SentryFlutter.init(
-    (options) => options.dsn = 
-    '$mydsn',
+    (options) => options.dsn = mydsn,
     appRunner: () => runApp(MyApp()));
 }
 
